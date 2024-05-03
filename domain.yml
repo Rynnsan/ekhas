@@ -1,0 +1,55 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - good_feedback
+  - bad_feedback
+  - bot_challenge
+  - apology
+  - tv
+  - phone
+  - express_gratitude
+  - noMoreHelp
+  - additionalHelp
+  - faq
+  - chitchat
+  - outofscope
+
+responses:
+  utter_greet:
+    - text: "Hey! I am an AI chatbot made by EKHAS. How may I assist you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you? If you need extra help with our electronics please let me know."
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am an AI bot, powered by E-KHAS."
+
+  utter_apology:
+    - text: "I'm sorry, do you need help with anything else?"
+
+  utter_reccomend_phone:
+    - text: "I would reccomend you to see your phone section. https://khas.mobitek.org/en/mobile-phones/"
+
+  utter_reccomend_tv:
+    - text: "I want to reccomend you to check out our TV section for many options."
+
+  utter_answerfaq:
+    - text: "EKHAS is an e commerce website powered with an ai. This website is operating by 4 ungraduated computer engineering students. For frequently asked questions you may visit our FAQ section."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
