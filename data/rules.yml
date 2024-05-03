@@ -20,3 +20,5 @@ rules:
     steps:
       - intent: faq
       - action: utter_answerfaq
+
+      # deneme 1
