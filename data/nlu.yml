@@ -1456,7 +1456,7 @@ nlu:
 
   - intent: printer
     examples: |
-       - need a printer
+      - need a printer
       - give me a printer
       - printer i am looking for
       - hello printer
