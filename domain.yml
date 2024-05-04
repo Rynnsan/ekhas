@@ -19,7 +19,7 @@ intents:
   - outofscope
 
 #entities:
- # -categories
+# -categories
 
 responses:
   utter_greet:
@@ -56,6 +56,8 @@ responses:
   utter_express_gratitude:
     - text: "You're welcome. Do you have any other questions?"
 
+  utter_outofscope:
+    - text: "Your question is out of our scope. I am allowed to answer your questions in this website's context."
 
 session_config:
   session_expiration_time: 60

@@ -25,3 +25,8 @@ rules:
     steps:
       - intent: express_gratitude
       - action: utter_express_gratitude
+
+  - rule: Say outofscope when user tells outofscope
+    steps:
+      - intent: outofscope
+      - action: utter_outofscope

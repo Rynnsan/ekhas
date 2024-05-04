@@ -1170,7 +1170,7 @@ nlu:
       - you lock sweety
       - you should learn to count
       - you will know it from the single red rose it carries between its teeth
-      - ı am learning python
+      - I am learning python
       - CALL THE POLICE
       - tertyryutyi
       - wsdrcftvgybhnj
@@ -1348,3 +1348,95 @@ nlu:
       - do you have a name for yourself?
       - you have a name?
       - name?
+
+  - intent: desktop_computer
+    examples: |
+      - I am looking for a new desktop computer
+      - Can you recommend a good desktop PC?
+      - I want to buy a desktop computer
+      - Do you have any suggestions for a desktop computer?
+      - Could you help me find a suitable desktop PC?
+      - I'm interested in purchasing a new desktop computer
+      - Looking to upgrade my current desktop PC
+      - Seeking advice on choosing a desktop computer
+      - Need assistance selecting a new desktop PC
+      - Can you assist me with choosing a desktop computer model?
+      - Interested in exploring desktop computer options
+      - Looking to invest in a new desktop PC
+      - Hunting for a reliable desktop computer
+      - Exploring desktop computer choices
+      - Researching the latest desktop PC models
+      - Hoping to find a great desktop computer deal
+      - Considering purchasing a new desktop computer
+      - Exploring desktop computer features
+      - Want to buy a new desktop PC
+      - Searching for a new desktop computer
+
+  - intent: laptop
+    examples: |
+      - I am looking for a new laptop
+      - Can you recommend a good laptop?
+      - I want to buy a laptop
+      - Do you have any suggestions for a laptop?
+      - Could you help me find a suitable laptop?
+      - I'm interested in purchasing a new laptop
+      - Looking to upgrade my current laptop
+      - Seeking advice on choosing a laptop
+      - Need assistance selecting a new laptop
+      - Can you assist me with choosing a laptop model?
+      - Interested in exploring laptop options
+      - Looking to invest in a new laptop
+      - Hunting for a reliable laptop
+      - Exploring laptop choices
+      - Researching the latest laptop models
+      - Hoping to find a great laptop deal
+      - Considering purchasing a new laptop
+      - Exploring laptop features
+      - Want to buy a new laptop
+      - Searching for a new laptop
+
+  - intent: game_console
+    examples: |
+      - I am looking for a new game console
+      - Can you recommend a good gaming console?
+      - I want to buy a game console
+      - Do you have any suggestions for a game console?
+      - Could you help me find a suitable gaming console?
+      - I'm interested in purchasing a new game console
+      - Looking to upgrade my current gaming console
+      - Seeking advice on choosing a game console
+      - Need assistance selecting a new gaming console
+      - Can you assist me with choosing a gaming console model?
+      - Interested in exploring gaming console options
+      - Looking to invest in a new gaming console
+      - Hunting for a reliable gaming console
+      - Exploring gaming console choices
+      - Researching the latest gaming console models
+      - Hoping to find a great gaming console deal
+      - Considering purchasing a new gaming console
+      - Exploring gaming console features
+      - Want to buy a new gaming console
+      - Searching for a new gaming console
+
+  - intent: printer
+    examples: |
+      - I am looking for a new printer
+      - Can you recommend a good printer?
+      - I want to buy a printer
+      - Do you have any suggestions for a printer?
+      - Could you help me find a suitable printer?
+      - I'm interested in purchasing a new printer
+      - Looking to upgrade my current printer
+      - Seeking advice on choosing a printer
+      - Need assistance selecting a new printer
+      - Can you assist me with choosing a printer model?
+      - Interested in exploring printer options
+      - Looking to invest in a new printer
+      - Hunting for a reliable printer
+      - Exploring printer choices
+      - Researching the latest printer models
+      - Hoping to find a great printer deal
+      - Considering purchasing a new printer
+      - Exploring printer features
+      - Want to buy a new printer
+      - Searching for a new printer
