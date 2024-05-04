@@ -789,6 +789,9 @@ nlu:
 
   - intent: faq
     examples: |
+      - i (want to) or (wanna) learn about this site
+      - i (want to) or (wanna) get information about this site
+      - i (want to) or (wanna) know what this site is for
       - inform me about ekhas
       - inform me about the firm
       - inform me about the company

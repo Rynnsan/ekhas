@@ -16,11 +16,12 @@ rules:
       - intent: greet
       - action: utter_greet
 
-  - rule: Say faq when user asks for
+  - rule: Say faq anytime when user asks for
     steps:
       - intent: faq
       - action: utter_answerfaq
 
-      # deneme 1
-      #deneme 2 bu yeni eklentiyi deniyorum
-      # deneme 3 barışş pushh
+  - rule: Say you're welcome anytime when user asks for
+    steps:
+      - intent: express_gratitude
+      - action: utter_express_gratitude
