@@ -1351,6 +1351,18 @@ nlu:
 
   - intent: desktop_computer
     examples: |
+      - need a computer
+      - give me a computer
+      - computer i am looking for
+      - hello computer
+      - goodbye computer
+      - conputer?
+      - computer yeah.
+      - compiter
+      - am I looking for a computer?
+      - maybe  I am a computer
+      - suggest me a compter son
+      - I need a computer so bad
       - I am looking for a new desktop computer
       - Can you recommend a good desktop PC?
       - I want to buy a desktop computer
@@ -1374,6 +1386,18 @@ nlu:
 
   - intent: laptop
     examples: |
+      - need a laptop
+      - give me a laptop
+      - laptop i am looking for
+      - hello laptop
+      - goodbye laptop
+      - laptoplaptop?
+      - laptop yeah.
+      - compiter
+      - am I looking for a laptop?
+      - maybe  I am a laptop
+      - suggest me a laptop son
+      - I need a laptop so bad
       - I am looking for a new laptop
       - Can you recommend a good laptop?
       - I want to buy a laptop
@@ -1397,6 +1421,18 @@ nlu:
 
   - intent: game_console
     examples: |
+      - need a console
+      - give me a console
+      - console i am looking for
+      - hello console
+      - goodbye console
+      - console?
+      - console yeah.
+      - console
+      - am I looking for a console?
+      - maybe  I am a console
+      - suggest me a console son
+      - I need a console so bad
       - I am looking for a new game console
       - Can you recommend a good gaming console?
       - I want to buy a game console
@@ -1420,6 +1456,18 @@ nlu:
 
   - intent: printer
     examples: |
+       - need a printer
+      - give me a printer
+      - printer i am looking for
+      - hello printer
+      - goodbye printer
+      - printer?
+      - printer yeah.
+      - printer
+      - am I looking for a printer?
+      - maybe  I am a printer
+      - suggest me a printer son
+      - I need a printer so bad
       - I am looking for a new printer
       - Can you recommend a good printer?
       - I want to buy a printer
