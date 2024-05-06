@@ -470,6 +470,12 @@ nlu:
 
   - intent: good_feedback
     examples: |
+      - it helped me
+      - helped out 
+      - it works
+      - nice suggestions
+      - i dont need any more help
+      - no help required
       - perfect
       - great
       - amazing
@@ -631,6 +637,17 @@ nlu:
       - I'm seeking another product
       - I need something different
       - I'm thoroughly dissatisfied
+      - It didnt help
+      - not helpful
+      - didnt help me
+      - no it did not help
+      - I need more help
+      - it didnt help me out
+      - I need more help
+      - extra help
+      - more  help please
+      - help me please
+      - help me out
 
   - intent: bot_challenge
     examples: |

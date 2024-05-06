@@ -17,6 +17,7 @@ intents:
   - faq
   - chitchat
   - outofscope
+  - bad_words
 
 #entities:
 # -categories
