@@ -30,3 +30,8 @@ rules:
     steps:
       - intent: outofscope
       - action: utter_outofscope
+
+  - rule: Dont tolerate bad words
+    steps:
+      - intent: bad_words
+      - action: utter_badwords

@@ -59,6 +59,9 @@ responses:
   utter_outofscope:
     - text: "Your question is out of our scope. I am allowed to answer your questions in this website's context."
 
+  utter_badwords:
+    - text: "Please use respectful language when speaking to me. I will not tolerate blasphemy."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

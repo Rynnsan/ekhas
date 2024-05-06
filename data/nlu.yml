@@ -1488,3 +1488,113 @@ nlu:
       - Exploring printer features
       - Want to buy a new printer
       - Searching for a new printer
+
+  - intent: bad_words
+    examples: |
+      - fuck
+      - fucker
+      - nigga
+      - nigger
+      - motherfucker
+      - asshole
+      - Sonofabitch
+      - Motherfucker
+      - Pussy
+      - Ass
+      - Asshole
+      - Assfuck
+      - Fuckass
+      - Dumbass
+      - Dick
+      - Twat
+      - Skank
+      - Slut
+      - Hoe
+      - Bitch
+      - Cunt
+      - Douche
+      - Douchebag
+      - arse
+      - arsehead
+      - arsehole
+      - ass
+      - asshole
+      - bastard
+      - bitch
+      - bloody
+      - bollocks
+      - brotherfucker
+      - bugger
+      - bullshit
+      - child fucker
+      - Christ on a bike
+      - Christ on a cracker
+      - cock
+      - cocksucker
+      - crap
+      - cunt
+      - cyka blyat
+      - damn
+      - damn it
+      - dick
+      - dickhead
+      - dyke
+      - fatherfucker
+      - sisterfucker
+      - momfucker
+      - frigger
+      - fuck
+      - goddamn
+      - godsdamn
+      - hell
+      - holy shit
+      - horseshit
+      - in shit
+      - Jesus Christ
+      - Jesus fuck
+      - Jesus H. Christ
+      - Jesus Harold Christ
+      - Jesus, Mary and Joseph
+      - Jesus wept
+      - kike
+      - motherfucker
+      - nigga
+      - nigra
+      - pigfucker
+      - piss
+      - prick
+      - pussy
+      - shit
+      - shit ass
+      - shite
+      - sisterfucker
+      - slut
+      - son of a whore
+      - son of a bitch
+      - spastic
+      - sweet Jesus
+      - turd
+      - twat
+      - wanker
+      - orospu evladı
+      - anneni sikeyim
+      - gavat
+      - top
+      - ibne
+      - yavşak
+      - annesiz
+      - orrosbu çocuğu
+      - piç kurusu
+      - pezevenk
+      - pezevengin damadı
+      - annesiz
+      - babasız
+      - yardımcı olacağın konuyu sikeyim
+      - seni sikeyim
+      - annenin amını sikeyim
+      - kaşar
+      - kaşmer
+      - lavuk
+      - piç
+      - ölünü sikeyim
+      - annenin amına koyayım
