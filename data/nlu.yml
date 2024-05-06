@@ -1373,6 +1373,14 @@ nlu:
       - computer i am looking for
       - hello computer
       - goodbye computer
+      - I need a gaming computer
+      - gaming desktop computer
+      - gaming pc
+      - gaming desktop
+      - I need a desktop pc
+      - computer with good graphic card
+      - give me a computer suggestion
+      - pc with desktop
       - conputer?
       - computer yeah.
       - compiter
@@ -1405,12 +1413,21 @@ nlu:
     examples: |
       - need a laptop
       - give me a laptop
+      - gaming laptop
+      - laptop for gaming
+      - i am looking for gaming laptop
+      - i am going to play games with laptop
+      - laptop gamer
       - laptop i am looking for
       - hello laptop
       - goodbye laptop
       - laptoplaptop?
       - laptop yeah.
       - compiter
+      - lap and the top
+      - i need a laptop
+      - i'm in need of a laptop
+      - lookin for laptop
       - am I looking for a laptop?
       - maybe  I am a laptop
       - suggest me a laptop son
@@ -1497,6 +1514,11 @@ nlu:
       - Can you assist me with choosing a printer model?
       - Interested in exploring printer options
       - Looking to invest in a new printer
+      - I need a printer
+      - printer
+      - printing device
+      - laser printer
+      - ink printer
       - Hunting for a reliable printer
       - Exploring printer choices
       - Researching the latest printer models

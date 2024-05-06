@@ -18,6 +18,10 @@ intents:
   - chitchat
   - outofscope
   - bad_words
+  - desktop_computer
+  - laptop
+  - game_console
+  - printer
 
 #entities:
 # -categories
@@ -43,7 +47,7 @@ responses:
     - text: "I am an AI bot, powered by E-KHAS."
 
   utter_apology:
-    - text: "I'm sorry, do you need help with anything else?"
+    - text: "I'm sorry, do you need help with anything else? If you do let me know."
 
   utter_reccomend_phone:
     - text: "I would reccomend you to see your phone section. https://khas.mobitek.org/en/mobile-phones/"
@@ -62,6 +66,12 @@ responses:
 
   utter_badwords:
     - text: "Please use respectful language when speaking to me. I will not tolerate blasphemy."
+
+  utter_desktop:
+    - text: "If you are looking for a desktop pc i suggest you to see our section of desktop pc."
+
+  utter_thank:
+    - text: "Glad I could help."
 
 session_config:
   session_expiration_time: 60
