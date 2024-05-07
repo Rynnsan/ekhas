@@ -48,6 +48,7 @@ stories:
       - action: utter_did_that_help
       - intent: good_feedback
       - action: utter_thank
+      - action: action_session_start ## Konuşmanın en başına hiçbir storye girmemiş olan haline döndürür.
 
   - story: oyuncu bilgisayari sad
     steps:
