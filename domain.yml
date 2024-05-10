@@ -20,9 +20,14 @@ intents:
   - outofscope
   - bad_words
   - laptop
-  - game_console
+  - gaming_console
   - printer
   - desktop_computer
+  - beyaz_esya
+  - tablet
+  - accessories
+  - heating_cooling
+  - ev_aletleri
 
 #entities:
 # -categories
