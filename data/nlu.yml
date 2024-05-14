@@ -2059,7 +2059,7 @@ nlu:
 
   - intent: filter_products
     examples: |
-      - I'm looking for a [laptop](category) laptop
+      - I'm looking for a [laptop](category) with [blue](color) color
       - Show me [smartphones](category) with [OLED](panel_type) panel type
       - Find me a [TV](category) with [4K](maximum_resolution) resolution
       - Show [computers](category) with [Bluetooth 5.0](bluetooth)

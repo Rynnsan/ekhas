@@ -49,3 +49,21 @@ class ActionSessionStart(Action):
         events.append(ActionExecuted("action_listen"))
 
         return events
+    
+    def fetch_slots(self, tracker: Tracker) -> List[Dict[Text, Any]]:
+        """Fetch slots from tracker and return SlotSet events."""
+        slots = []
+        # Assuming "category" is extracted from user input and stored in tracker
+        category = tracker.get_slot("category")
+        if category:
+            slots.append(SlotSet("category", category))
+        
+        # Assuming "color" is extracted from user input and stored in tracker
+        color = tracker.get_slot("color")
+        if color:
+            slots.append(SlotSet("color", color))
+        
+        return slots
+
+
+    

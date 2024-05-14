@@ -35,65 +35,7 @@ intents:
 entities:
   - category
   - color
-  - capacity
-  - max_dpi
-  - number_of_keys
-  - panel_type
-  - sync_technology
-  - response_time
-  - tv_type
-  - base_material
-  - blender_knife_material
-  - quiet_operation
-  - water_tank_capacity
-  - milk_tank_capacity
-  - cup_slot
-  - fast_charging
-  - internal_memory
-  - front_view_camera
-  - rear_view_camera
-  - phone_screen_size
-  - microphone
-  - frequency_response
-  - device_weight
-  - ram
-  - bluetooth
-  - ram_type
-  - optic_driver
-  - graphics_card_type
-  - touch_screen
-  - manufacturer_warranty
-  - ssd_capacity
-  - hdmi
-  - emmc_capacity
-  - maximum_resolution
-  - os
-  - memory_speed
-  - maximum_processor_speed
-  - webcam
-  - hdd_capacity
-  - fingerprint_reader
-  - processor
-  - screen_size
-  - card_reader
-  - display_panel_type
-  - brand
-  - screen_refresh_rate
-  - purpose_of_usage
-  - graphic_card
-  - rgb_keyboard
-  - power_supply
-  - wireless
-  - monitor
-  - dimensions
-  - speaker_power
-  - brightness
-  - annual_energy_consumed
-  - drying_washing_capacity
-  - cooker_type
-  - number_of_programs
-  - timer
-  - spin_speed
+
 
 slots:
   category:
@@ -103,6 +45,14 @@ slots:
     - type: from_entity
       entity: category
 
+  color:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: color
+  
+
 
 
 #entities:
@@ -111,6 +61,11 @@ slots:
 responses:
   utter_greet:
     - text: "Hey! I am an AI chatbot made by EKHAS. How may I assist you?"
+    - text: "Hello! I'm an AI chatbot developed by EKHAS. How can I be of assistance to you?"
+    - text: "Hi there! I'm a chatbot created by EKHAS. What can I help you with today?"
+    - text: "Greetings! I'm an AI chatbot made by EKHAS. How may I be of service to you?"
+    - text: "Welcome! I'm a chatbot powered by EKHAS. How can I assist you?"
+    - text: "Hi! I'm an AI chatbot from EKHAS. What do you need help with?"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -156,7 +111,7 @@ responses:
     - text: "Glad I could help."
 
   utter_filter_products:
-    - text: "Sure, here are the filtered products: [Link](https://khas.mobitek.org/{category}/?color={color}&capacity={capacity}&max_dpi={max_dpi}&number_of_keys={number_of_keys}&panel_type={panel_type}&sync_technology={sync_technology}&response_time={response_time}&tv_type={tv_type}&base_material={base_material}&blender_knife_material={blender_knife_material}&quiet_operation={quiet_operation}&water_tank_capacity={water_tank_capacity}&milk_tank_capacity={milk_tank_capacity}&cup_slot={cup_slot}&fast_charging={fast_charging}&internal_memory={internal_memory}&front_view_camera={front_view_camera}&rear_view_camera={rear_view_camera}&phone_screen_size={phone_screen_size}&microphone={microphone}&frequency_response={frequency_response}&device_weight={device_weight}&ram={ram}&bluetooth={bluetooth}&ram_type={ram_type}&optic_driver={optic_driver}&graphics_card_type={graphics_card_type}&touch_screen={touch_screen}&manufacturer_warranty={manufacturer_warranty}&ssd_capacity={ssd_capacity}&hdmi={hdmi}&emmc_capacity={emmc_capacity}&maximum_resolution={maximum_resolution}&os={os}&memory_speed={memory_speed}&maximum_processor_speed={maximum_processor_speed}&webcam={webcam}&hdd_capacity={hdd_capacity}&fingerprint_reader={fingerprint_reader}&processor={processor}&screen_size={screen_size}&card_reader={card_reader}&display_panel_type={display_panel_type}&brand={brand}&screen_refresh_rate={screen_refresh_rate}&purpose_of_usage={purpose_of_usage}&graphic_card={graphic_card}&rgb_keyboard={rgb_keyboard}&power_supply={power_supply}&wireless={wireless}&monitor={monitor}&dimensions={dimensions}&speaker_power={speaker_power}&brightness={brightness}&annual_energy_consumed={annual_energy_consumed}&drying_washing_capacity={drying_washing_capacity}&cooker_type={cooker_type}&number_of_programs={number_of_programs}&timer={timer}&spin_speed={spin_speed})"
+    - text: "Sure, here are the filtered products: https://khas.mobitek.org/{category}/?color={color}" #deneme amaçlı, linkin tamamı sonradan eklenecek
 
 session_config:
   session_expiration_time: 60
