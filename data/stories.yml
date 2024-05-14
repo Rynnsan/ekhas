@@ -59,3 +59,12 @@ stories:
       - action: utter_did_that_help
       - intent: bad_feedback
       - action: utter_apology
+
+  - story: filter
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: filter_products
+      - action: utter_filter_products
+
+

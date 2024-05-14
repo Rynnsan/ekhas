@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-bluetooth",
+      "2": "I-bluetooth",
+      "3": "L-bluetooth",
+      "4": "U-bluetooth",
+      "5": "B-category",
+      "6": "I-category",
+      "7": "L-category",
+      "8": "U-category",
+      "9": "B-maximum_resolution",
+      "10": "I-maximum_resolution",
+      "11": "L-maximum_resolution",
+      "12": "U-maximum_resolution",
+      "13": "B-panel_type",
+      "14": "I-panel_type",
+      "15": "L-panel_type",
+      "16": "U-panel_type",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-bluetooth": 1,
+      "I-bluetooth": 2,
+      "L-bluetooth": 3,
+      "U-bluetooth": 4,
+      "B-category": 5,
+      "I-category": 6,
+      "L-category": 7,
+      "U-category": 8,
+      "B-maximum_resolution": 9,
+      "I-maximum_resolution": 10,
+      "L-maximum_resolution": 11,
+      "U-maximum_resolution": 12,
+      "B-panel_type": 13,
+      "I-panel_type": 14,
+      "L-panel_type": 15,
+      "U-panel_type": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

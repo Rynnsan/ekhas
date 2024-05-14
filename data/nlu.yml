@@ -2055,3 +2055,12 @@ nlu:
       - How to solve any user error or accidental problems during the use of the appliance?
       - Did the appliance emit any odour or bad smell during use?
       - What suggestions would you make to save energy during the use of this appliance?
+
+
+  - intent: filter_products
+    examples: |
+      - I'm looking for a [laptop](category) laptop
+      - Show me [smartphones](category) with [OLED](panel_type) panel type
+      - Find me a [TV](category) with [4K](maximum_resolution) resolution
+      - Show [computers](category) with [Bluetooth 5.0](bluetooth)
+      - ...
