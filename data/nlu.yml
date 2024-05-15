@@ -24,7 +24,6 @@ nlu:
       - well met!
       - greetings
       - hi, how's it going?
-      - hello, how are you?
       - hey, how's everything?
       - hi, nice to meet you
       - hello, good to see you
@@ -2059,8 +2058,7 @@ nlu:
 
   - intent: filter_products
     examples: |
-      - I'm looking for a [laptop](category) with [blue](color) color
-      - Show me [smartphones](category) with [OLED](panel_type) panel type
-      - Find me a [TV](category) with [4K](maximum_resolution) resolution
-      - Show [computers](category) with [Bluetooth 5.0](bluetooth)
-      - ...
+      - i'm looking for a [notebook](category) with [blue](color) color
+      - show me [smartphones](category) with [OLED](panel_type) panel type
+      - find me a [TV](category) with [4K](maximum_resolution) resolution
+      - show [computers](category) with [Bluetooth 5.0](bluetooth)

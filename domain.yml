@@ -40,20 +40,21 @@ entities:
 slots:
   category:
     type: text
-    influence_conversation: true
     mappings:
     - type: from_entity
       entity: category
 
   color:
     type: text
-    influence_conversation: true
     mappings:
     - type: from_entity
       entity: color
   
 
 
+actions:
+  - action_extract_entities
+  - action_section_start
 
 #entities:
 # -categories
@@ -110,8 +111,8 @@ responses:
   utter_thank:
     - text: "Glad I could help."
 
-  utter_filter_products:
-    - text: "Sure, here are the filtered products: https://khas.mobitek.org/{category}/?color={color}" #deneme amaçlı, linkin tamamı sonradan eklenecek
+  #utter_filter_products:
+  #  - text: "Sure, here are the filtered products: https://khas.mobitek.org/{category}/?color={color}" #deneme amaçlı, linkin tamamı sonradan eklenecek
 
 session_config:
   session_expiration_time: 60
