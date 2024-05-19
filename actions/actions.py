@@ -72,6 +72,9 @@ class ActionSessionStart(Action):
         # `session_started` event
         events.extend(self.fetch_slots(tracker))
 
+        # Send a greeting message
+        #dispatcher.utter_message(template="utter_greet")
+
         # an `action_listen` should be added at the end as a user message follows
         events.append(ActionExecuted("action_listen"))
 
@@ -84,7 +87,9 @@ class ExtractEntities(Action):
                     tracker: Tracker,
                     domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         category = next(tracker.get_latest_entity_values('category'), None)
-        color = next(tracker.get_latest_entity_values('color'), None)
+        colour = next(tracker.get_latest_entity_values('colour'), None)
+        capacity = next(tracker.get_latest_entity_values('capacity'), None)
+        max_dpi = next(tracker.get_latest_entity_values('max_dpi'), None)
 
-        dispatcher.utter_message(text= f"Sure, here are the filtered products: https://khas.mobitek.org/{category}/?colour={color}" )
+        dispatcher.utter_message(text= f"Sure, here are the filtered products: https://khas.mobitek.org/{category}/?colour={colour}&capacity={capacity}&max_dpi={max_dpi}" )
         return []

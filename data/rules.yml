@@ -35,3 +35,13 @@ rules:
     steps:
       - intent: bad_words
       - action: utter_badwords
+
+  - rule: first message from bot 
+    steps:
+      - intent: session_start
+      - action: action_session_start
+
+  - rule: answer (how are you) from bot 
+    steps:
+      - intent: chitchat
+      - action: utter_chitchat
