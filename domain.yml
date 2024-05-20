@@ -40,12 +40,12 @@ entities:
 
 
 
-slots:
-  category:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: category
+# slots:
+#   category:
+#     type: text
+#     mappings:
+#     - type: from_entity
+#       entity: category
 
   colour:
     type: text

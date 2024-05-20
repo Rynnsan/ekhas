@@ -4,8 +4,7 @@ stories:
 
 - story: happy path
   steps:
-    - intent: greet
-    - action: utter_greet
+
     - intent: good_feedback
     - action: utter_happy
 
@@ -31,8 +30,7 @@ stories:
 
 - story: tv  path
   steps:
-    - intent: greet
-    - action: utter_greet
+
     - intent: tv
     - action: utter_reccomend_tv
     - action: utter_did_that_help
@@ -42,8 +40,7 @@ stories:
 
 - story: oyuncu bilgisayari happy
   steps:
-    - intent: greet
-    - action: utter_greet
+
     - intent: desktop_computer
     - action: utter_desktop
     - action: utter_did_that_help
@@ -53,8 +50,7 @@ stories:
 
 - story: oyuncu bilgisayari sad
   steps:
-    - intent: greet
-    - action: utter_greet
+
     - intent: desktop_computer
     - action: utter_desktop
     - action: utter_did_that_help
@@ -63,8 +59,7 @@ stories:
 
 - story: filter
   steps:
-    - intent: greet
-    - action: utter_greet
+
     - intent: filter_products
     - action: action_extract_entities
 
