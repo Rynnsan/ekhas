@@ -91,5 +91,14 @@ class ExtractEntities(Action):
         capacity = next(tracker.get_latest_entity_values('capacity'), None)
         max_dpi = next(tracker.get_latest_entity_values('max_dpi'), None)
 
-        dispatcher.utter_message(text= f"Sure, here are the filtered products: https://khas.mobitek.org/{category}/?colour={colour}&capacity={capacity}&max_dpi={max_dpi}" )
+
+        # Link oluşturma
+        link = f"https://khas.mobitek.org/{category}/?colour={colour}"
+        
+        # HTML formatında mesaj oluşturma
+        message = f'Sure, here are the filtered products: <a href="{link}" target="_blank">{link}</a>'
+        
+        # Mesajı basma
+        dispatcher.utter_message(text=message)
+
         return []

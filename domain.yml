@@ -47,23 +47,23 @@ entities:
 #     - type: from_entity
 #       entity: category
 
-  colour:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: colour
+  # colour:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: colour
 
-  capacity:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: capacity
+  # capacity:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: capacity
   
-  max_dpi:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: max_dpi
+  # max_dpi:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: max_dpi
 
 
 
