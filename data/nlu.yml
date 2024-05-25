@@ -2055,10 +2055,66 @@ nlu:
       - Did the appliance emit any odour or bad smell during use?
       - What suggestions would you make to save energy during the use of this appliance?
 
-
-  - intent: filter_products
+  - intent: filter_notebook
     examples: |
       - i'm looking for a [notebook](category) with [blue](colour) colour
-      - show me [smartphones](category) with [OLED](panel_type) panel type
-      - find me a [TV](category) with [4K](maximum_resolution) resolution
-      - show [computers](category) with [Bluetooth 5.0](bluetooth)
+      - show me a  [black](colour) laptop
+      - i am looking for a [mac os](operating_system) laptop
+      - find me a [32 GB](ram_size) laptop notebook 
+      - i need a notebook with [12 hours](battery_life) battery life 
+      - i am looking for a notebook with [1080p](maximum_resolution) screen resolution
+      - i need a notebook with [256gb](capacity) storage
+
+  - intent: filter_phone
+
+    synonyms:
+    notebook:
+      - laptop
+      - dizüstü
+
+    smartphone:
+      - cell phone
+      - phone
+      - telefon
+      - iphone
+
+    operating_system:
+      - windows 10
+      - windows 11
+      - linux
+      - mac os
+      - ios
+
+    storage_size:
+      - 256gb
+      - 1tb
+      - 512gb
+      - 2tb
+      - 256 gb
+      - 1 tb
+      - 512 gb
+      - 2 tb
+      - 256 GB
+      - 1 TB
+      - 512 GB
+      - 2 TB
+      - 256GB
+      - 1TB
+      - 512GB
+      - 2TB
+
+    ram_size:
+      - 32 GB
+      - 8 GB
+      - 16 GB
+      - 32 gb
+      - 8 gb
+      - 16 gb
+    screen_resolution:
+      - 2560x1600
+      - 1920x1080
+      - 2880x1800
+      - 3840x2160
+      - 1080p
+      - 2k
+      - 4k
