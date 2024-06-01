@@ -19,7 +19,7 @@ intents:
   - chitchat
   - outofscope
   - bad_words
-  - laptop
+  - laptop_notebook
   - gaming_console
   - printer
   - desktop_computer
@@ -29,16 +29,19 @@ intents:
   - heating_cooling
   - ev_aletleri
   - filter_products
-
-
+  - coffee_machine
+  - microwave
+  - playstation
+  - xbox
+  - nintendo_switch
+  - heater
+  - gas_heater
 
 entities:
   - category
   - colour
   - capacity
   - max_dpi
-
-
 
 # slots:
 #   category:
@@ -47,25 +50,23 @@ entities:
 #     - type: from_entity
 #       entity: category
 
-  # colour:
-  #   type: text
-  #   mappings:
-  #   - type: from_entity
-  #     entity: colour
+# colour:
+#   type: text
+#   mappings:
+#   - type: from_entity
+#     entity: colour
 
-  # capacity:
-  #   type: text
-  #   mappings:
-  #   - type: from_entity
-  #     entity: capacity
-  
-  # max_dpi:
-  #   type: text
-  #   mappings:
-  #   - type: from_entity
-  #     entity: max_dpi
+# capacity:
+#   type: text
+#   mappings:
+#   - type: from_entity
+#     entity: capacity
 
-
+# max_dpi:
+#   type: text
+#   mappings:
+#   - type: from_entity
+#     entity: max_dpi
 
 actions:
   - action_extract_entities
@@ -136,7 +137,6 @@ responses:
     - text: "EKHAS, an AI-integrated e-commerce site, is run by four undergraduate computer engineering students. You can find answers to common questions in our FAQ section."
     - text: "EKHAS is an e-commerce platform with AI technology, managed by four computer engineering undergraduates. For FAQs, visit our FAQ section."
 
-
   utter_express_gratitude:
     - text: "You're welcome. Do you have any other questions?"
     - text: "You're welcome. Is there anything else you'd like to ask?"
@@ -191,7 +191,6 @@ responses:
     - text: "I'm doing well, thank you! What do you need?"
     - text: "Everything's running smoothly. How can I assist you?"
     - text: "I'm great, thanks! How can I help you today?"
-
 
   #utter_filter_products:
   #  - text: "Sure, here are the filtered products: https://khas.mobitek.org/{category}/?color={color}" #deneme amaçlı, linkin tamamı sonradan eklenecek

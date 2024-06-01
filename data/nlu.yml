@@ -1103,6 +1103,258 @@ nlu:
       - Is there a second screen or screen sharing?
       - What is the resale value of the TV?
       - What is included in the package (remote control, cables, booklet, etc.)?
+      - I'm looking for a TV with 8GB RAM
+      - I'm looking for a TV with 16GB RAM
+      - I'm looking for a TV with 4GB RAM
+      - I'm looking for a TV with 6GB RAM
+      - I'm looking for a TV with 32GB RAM
+      - I'm looking for a TV with a AMD Ryzen 5 processor
+      - I'm looking for a TV with a Intel Core i7 processor
+      - I'm looking for a TV with a Intel Core i5 processor
+      - I'm looking for a TV with a AMD Ryzen 7 processor
+      - I'm looking for a TV with a Apple M1 processor
+      - I'm looking for a TV with a Intel Core i9 processor
+      - I'm looking for a TV with 2TB SSD storage
+      - I'm looking for a TV with 1TB SSD storage
+      - I'm looking for a TV with 512GB SSD storage
+      - I'm looking for a TV with 256GB SSD storage
+      - I'm looking for a TV with 128GB storage
+      - I'm looking for a TV with 64GB storage
+      - I'm looking for a TV with 512GB storage
+      - I'm looking for a TV with 1TB storage
+      - I'm looking for a TV with 256GB storage
+      - I'm looking for a TV with 500GB storage
+      - I'm looking for a TV with 1000GB storage
+      - I'm looking for a TV with NVIDIA GeForce GTX 1650 graphics card
+      - I'm looking for a TV with AMD Radeon Pro 5500M graphics card
+      - I'm looking for a TV with Intel Iris Plus graphics card
+      - I'm looking for a TV with NVIDIA RTX 3080 graphics card
+      - I'm looking for a TV with AMD Radeon RX 6800 graphics card
+      - I'm looking for a TV with Integrated Graphics
+      - I'm looking for a TV with GeForce RTX 4060 graphics card
+      - I'm looking for a TV with GeForce RTX 3050 graphics card
+      - I'm looking for a TV with GeForce RTX 3060 Ti graphics card
+      - I'm looking for a TV with a 17-inch screen
+      - I'm looking for a TV with a 21.5-inch screen
+      - I'm looking for a TV with a 27-inch screen
+      - I'm looking for a TV with a 15-inch screen
+      - I'm looking for a TV with a 13-inch screen
+      - I'm looking for a TV with a 50-inch screen
+      - I'm looking for a TV with a 75-inch screen
+      - I'm looking for a TV with a 43-inch screen
+      - I'm looking for a TV with a 55-inch screen
+      - I'm looking for a TV with a 65-inch screen
+      - I'm looking for a TV with a 32-inch screen
+      - I'm looking for a TV with a 12.9-inch screen
+      - I'm looking for a TV with a 5.4-inch screen
+      - I'm looking for a TV with a 11-inch screen
+      - I'm looking for a TV with a 6.7-inch screen
+      - I'm looking for a TV with a 6.1-inch screen
+      - I'm looking for a TV with a 23.8-inch screen
+      - I'm looking for a TV with 1920x1080 resolution
+      - I'm looking for a TV with 2880x1800 resolution
+      - I'm looking for a TV with 2560x1600 resolution
+      - I'm looking for a TV with 3840x2160 resolution
+      - I'm looking for a TV with 2560x1440 resolution
+      - I'm looking for a TV with 7680x4320 resolution
+      - I'm looking for a TV with 2388x1668 resolution
+      - I'm looking for a TV with 2532x1170 resolution
+      - I'm looking for a TV with 2340x1080 resolution
+      - I'm looking for a TV with 2778x1284 resolution
+      - I'm looking for a TV with 2732x2048 resolution
+      - I'm looking for a TV with Linux operating system
+      - I'm looking for a TV with macOS operating system
+      - I'm looking for a TV with Windows 10 operating system
+      - I'm looking for a TV with Windows 11 operating system
+      - I'm looking for a TV with iPadOS 15 operating system
+      - I'm looking for a TV with adroid 12 operating system
+      - I'm looking for a TV with adroid 11 operating system
+      - I'm looking for a TV with iOS 15 operating system
+      - I'm looking for a TV with iOS 16 operating system
+      - I'm looking for a TV in White color
+      - I'm looking for a TV in Black color
+      - I'm looking for a TV in Silver color
+      - I'm looking for a TV in Space Gray color
+      - I'm looking for a TV in Blue color
+      - I'm looking for a TV in Red color
+      - I'm looking for a TV in Green color
+      - I'm looking for a TV in Gray color
+      - I'm looking for a TV in Grey color
+      - I'm looking for a TV in Gold color
+      - I'm looking for a TV in Yellow color
+      - I'm looking for a TV in Purple color
+      - I'm looking for a TV in Pink color
+      - I'm looking for a TV in Orage color
+      - I'm looking for a TV in Bronze color
+      - I'm looking for a TV in Neon Blue/Red color
+      - I'm looking for a OLED TV with 8GB RAM
+      - I'm looking for a OLED TV with 16GB RAM
+      - I'm looking for a OLED TV with 4GB RAM
+      - I'm looking for a OLED TV with 6GB RAM
+      - I'm looking for a OLED TV with 32GB RAM
+      - I'm looking for a OLED TV with a AMD Ryzen 5 processor
+      - I'm looking for a OLED TV with a Intel Core i7 processor
+      - I'm looking for a OLED TV with a Intel Core i5 processor
+      - I'm looking for a OLED TV with a AMD Ryzen 7 processor
+      - I'm looking for a OLED TV with a Apple M1 processor
+      - I'm looking for a OLED TV with a Intel Core i9 processor
+      - I'm looking for a OLED TV with 2TB SSD storage
+      - I'm looking for a OLED TV with 1TB SSD storage
+      - I'm looking for a OLED TV with 512GB SSD storage
+      - I'm looking for a OLED TV with 256GB SSD storage
+      - I'm looking for a OLED TV with 128GB storage
+      - I'm looking for a OLED TV with 64GB storage
+      - I'm looking for a OLED TV with 512GB storage
+      - I'm looking for a OLED TV with 1TB storage
+      - I'm looking for a OLED TV with 256GB storage
+      - I'm looking for a OLED TV with 500GB storage
+      - I'm looking for a OLED TV with 1000GB storage
+      - I'm looking for a OLED TV with NVIDIA GeForce GTX 1650 graphics card
+      - I'm looking for a OLED TV with AMD Radeon Pro 5500M graphics card
+      - I'm looking for a OLED TV with Intel Iris Plus graphics card
+      - I'm looking for a OLED TV with NVIDIA RTX 3080 graphics card
+      - I'm looking for a OLED TV with AMD Radeon RX 6800 graphics card
+      - I'm looking for a OLED TV with Integrated Graphics
+      - I'm looking for a OLED TV with GeForce RTX 4060 graphics card
+      - I'm looking for a OLED TV with GeForce RTX 3050 graphics card
+      - I'm looking for a OLED TV with GeForce RTX 3060 Ti graphics card
+      - I'm looking for a OLED TV with a 17-inch screen
+      - I'm looking for a OLED TV with a 21.5-inch screen
+      - I'm looking for a OLED TV with a 27-inch screen
+      - I'm looking for a OLED TV with a 15-inch screen
+      - I'm looking for a OLED TV with a 13-inch screen
+      - I'm looking for a OLED TV with a 50-inch screen
+      - I'm looking for a OLED TV with a 75-inch screen
+      - I'm looking for a OLED TV with a 43-inch screen
+      - I'm looking for a OLED TV with a 55-inch screen
+      - I'm looking for a OLED TV with a 65-inch screen
+      - I'm looking for a OLED TV with a 32-inch screen
+      - I'm looking for a OLED TV with a 12.9-inch screen
+      - I'm looking for a OLED TV with a 5.4-inch screen
+      - I'm looking for a OLED TV with a 11-inch screen
+      - I'm looking for a OLED TV with a 6.7-inch screen
+      - I'm looking for a OLED TV with a 6.1-inch screen
+      - I'm looking for a OLED TV with a 23.8-inch screen
+      - I'm looking for a OLED TV with 1920x1080 resolution
+      - I'm looking for a OLED TV with 2880x1800 resolution
+      - I'm looking for a OLED TV with 2560x1600 resolution
+      - I'm looking for a OLED TV with 3840x2160 resolution
+      - I'm looking for a OLED TV with 2560x1440 resolution
+      - I'm looking for a OLED TV with 7680x4320 resolution
+      - I'm looking for a OLED TV with 2388x1668 resolution
+      - I'm looking for a OLED TV with 2532x1170 resolution
+      - I'm looking for a OLED TV with 2340x1080 resolution
+      - I'm looking for a OLED TV with 2778x1284 resolution
+      - I'm looking for a OLED TV with 2732x2048 resolution
+      - I'm looking for a OLED TV with Linux operating system
+      - I'm looking for a OLED TV with macOS operating system
+      - I'm looking for a OLED TV with Windows 10 operating system
+      - I'm looking for a OLED TV with Windows 11 operating system
+      - I'm looking for a OLED TV with iPadOS 15 operating system
+      - I'm looking for a OLED TV with adroid 12 operating system
+      - I'm looking for a OLED TV with adroid 11 operating system
+      - I'm looking for a OLED TV with iOS 15 operating system
+      - I'm looking for a OLED TV with iOS 16 operating system
+      - I'm looking for a OLED TV in White color
+      - I'm looking for a OLED TV in Black color
+      - I'm looking for a OLED TV in Silver color
+      - I'm looking for a OLED TV in Space Gray color
+      - I'm looking for a OLED TV in Blue color
+      - I'm looking for a OLED TV in Red color
+      - I'm looking for a OLED TV in Green color
+      - I'm looking for a OLED TV in Gray color
+      - I'm looking for a OLED TV in Grey color
+      - I'm looking for a OLED TV in Gold color
+      - I'm looking for a OLED TV in Yellow color
+      - I'm looking for a OLED TV in Purple color
+      - I'm looking for a OLED TV in Pink color
+      - I'm looking for a OLED TV in Orage color
+      - I'm looking for a OLED TV in Bronze color
+      - I'm looking for a OLED TV in Neon Blue/Red color
+      - I'm looking for a QLED TV with 8GB RAM
+      - I'm looking for a QLED TV with 16GB RAM
+      - I'm looking for a QLED TV with 4GB RAM
+      - I'm looking for a QLED TV with 6GB RAM
+      - I'm looking for a QLED TV with 32GB RAM
+      - I'm looking for a QLED TV with a AMD Ryzen 5 processor
+      - I'm looking for a QLED TV with a Intel Core i7 processor
+      - I'm looking for a QLED TV with a Intel Core i5 processor
+      - I'm looking for a QLED TV with a AMD Ryzen 7 processor
+      - I'm looking for a QLED TV with a Apple M1 processor
+      - I'm looking for a QLED TV with a Intel Core i9 processor
+      - I'm looking for a QLED TV with 2TB SSD storage
+      - I'm looking for a QLED TV with 1TB SSD storage
+      - I'm looking for a QLED TV with 512GB SSD storage
+      - I'm looking for a QLED TV with 256GB SSD storage
+      - I'm looking for a QLED TV with 128GB storage
+      - I'm looking for a QLED TV with 64GB storage
+      - I'm looking for a QLED TV with 512GB storage
+      - I'm looking for a QLED TV with 1TB storage
+      - I'm looking for a QLED TV with 256GB storage
+      - I'm looking for a QLED TV with 500GB storage
+      - I'm looking for a QLED TV with 1000GB storage
+      - I'm looking for a QLED TV with NVIDIA GeForce GTX 1650 graphics card
+      - I'm looking for a QLED TV with AMD Radeon Pro 5500M graphics card
+      - I'm looking for a QLED TV with Intel Iris Plus graphics card
+      - I'm looking for a QLED TV with NVIDIA RTX 3080 graphics card
+      - I'm looking for a QLED TV with AMD Radeon RX 6800 graphics card
+      - I'm looking for a QLED TV with Integrated Graphics
+      - I'm looking for a QLED TV with GeForce RTX 4060 graphics card
+      - I'm looking for a QLED TV with GeForce RTX 3050 graphics card
+      - I'm looking for a QLED TV with GeForce RTX 3060 Ti graphics card
+      - I'm looking for a QLED TV with a 17-inch screen
+      - I'm looking for a QLED TV with a 21.5-inch screen
+      - I'm looking for a QLED TV with a 27-inch screen
+      - I'm looking for a QLED TV with a 15-inch screen
+      - I'm looking for a QLED TV with a 13-inch screen
+      - I'm looking for a QLED TV with a 50-inch screen
+      - I'm looking for a QLED TV with a 75-inch screen
+      - I'm looking for a QLED TV with a 43-inch screen
+      - I'm looking for a QLED TV with a 55-inch screen
+      - I'm looking for a QLED TV with a 65-inch screen
+      - I'm looking for a QLED TV with a 32-inch screen
+      - I'm looking for a QLED TV with a 12.9-inch screen
+      - I'm looking for a QLED TV with a 5.4-inch screen
+      - I'm looking for a QLED TV with a 11-inch screen
+      - I'm looking for a QLED TV with a 6.7-inch screen
+      - I'm looking for a QLED TV with a 6.1-inch screen
+      - I'm looking for a QLED TV with a 23.8-inch screen
+      - I'm looking for a QLED TV with 1920x1080 resolution
+      - I'm looking for a QLED TV with 2880x1800 resolution
+      - I'm looking for a QLED TV with 2560x1600 resolution
+      - I'm looking for a QLED TV with 3840x2160 resolution
+      - I'm looking for a QLED TV with 2560x1440 resolution
+      - I'm looking for a QLED TV with 7680x4320 resolution
+      - I'm looking for a QLED TV with 2388x1668 resolution
+      - I'm looking for a QLED TV with 2532x1170 resolution
+      - I'm looking for a QLED TV with 2340x1080 resolution
+      - I'm looking for a QLED TV with 2778x1284 resolution
+      - I'm looking for a QLED TV with 2732x2048 resolution
+      - I'm looking for a QLED TV with Linux operating system
+      - I'm looking for a QLED TV with macOS operating system
+      - I'm looking for a QLED TV with Windows 10 operating system
+      - I'm looking for a QLED TV with Windows 11 operating system
+      - I'm looking for a QLED TV with iPadOS 15 operating system
+      - I'm looking for a QLED TV with adroid 12 operating system
+      - I'm looking for a QLED TV with adroid 11 operating system
+      - I'm looking for a QLED TV with iOS 15 operating system
+      - I'm looking for a QLED TV with iOS 16 operating system
+      - I'm looking for a QLED TV in White color
+      - I'm looking for a QLED TV in Black color
+      - I'm looking for a QLED TV in Silver color
+      - I'm looking for a QLED TV in Space Gray color
+      - I'm looking for a QLED TV in Blue color
+      - I'm looking for a QLED TV in Red color
+      - I'm looking for a QLED TV in Green color
+      - I'm looking for a QLED TV in Gray color
+      - I'm looking for a QLED TV in Grey color
+      - I'm looking for a QLED TV in Gold color
+      - I'm looking for a QLED TV in Yellow color
+      - I'm looking for a QLED TV in Purple color
+      - I'm looking for a QLED TV in Pink color
+      - I'm looking for a QLED TV in Orage color
+      - I'm looking for a QLED TV in Bronze color
+      - I'm looking for a QLED TV in Neon Blue/Red color
 
   - intent: outofscope
     examples: |
@@ -1556,8 +1808,92 @@ nlu:
       - Exploring desktop computer features
       - Want to buy a new desktop PC
       - Searching for a new desktop computer
+      - I'm looking for a Desktop PC with 8GB RAM
+      - I'm looking for a Desktop PC with 16GB RAM
+      - I'm looking for a Desktop PC with 4GB RAM
+      - I'm looking for a Desktop PC with 6GB RAM
+      - I'm looking for a Desktop PC with 32GB RAM
+      - I'm looking for a Desktop PC with a AMD Ryzen 5 processor
+      - I'm looking for a Desktop PC with a Intel Core i7 processor
+      - I'm looking for a Desktop PC with a Intel Core i5 processor
+      - I'm looking for a Desktop PC with a AMD Ryzen 7 processor
+      - I'm looking for a Desktop PC with a Apple M1 processor
+      - I'm looking for a Desktop PC with a Intel Core i9 processor
+      - I'm looking for a Desktop PC with 2TB SSD storage
+      - I'm looking for a Desktop PC with 1TB SSD storage
+      - I'm looking for a Desktop PC with 512GB SSD storage
+      - I'm looking for a Desktop PC with 256GB SSD storage
+      - I'm looking for a Desktop PC with 128GB storage
+      - I'm looking for a Desktop PC with 64GB storage
+      - I'm looking for a Desktop PC with 512GB storage
+      - I'm looking for a Desktop PC with 1TB storage
+      - I'm looking for a Desktop PC with 256GB storage
+      - I'm looking for a Desktop PC with 500GB storage
+      - I'm looking for a Desktop PC with 1000GB storage
+      - I'm looking for a Desktop PC with NVIDIA GeForce GTX 1650 graphics card
+      - I'm looking for a Desktop PC with AMD Radeon Pro 5500M graphics card
+      - I'm looking for a Desktop PC with Intel Iris Plus graphics card
+      - I'm looking for a Desktop PC with NVIDIA RTX 3080 graphics card
+      - I'm looking for a Desktop PC with AMD Radeon RX 6800 graphics card
+      - I'm looking for a Desktop PC with Integrated Graphics
+      - I'm looking for a Desktop PC with GeForce RTX 4060 graphics card
+      - I'm looking for a Desktop PC with GeForce RTX 3050 graphics card
+      - I'm looking for a Desktop PC with GeForce RTX 3060 Ti graphics card
+      - I'm looking for a Desktop PC with a 17-inch screen
+      - I'm looking for a Desktop PC with a 21.5-inch screen
+      - I'm looking for a Desktop PC with a 27-inch screen
+      - I'm looking for a Desktop PC with a 15-inch screen
+      - I'm looking for a Desktop PC with a 13-inch screen
+      - I'm looking for a Desktop PC with a 50-inch screen
+      - I'm looking for a Desktop PC with a 75-inch screen
+      - I'm looking for a Desktop PC with a 43-inch screen
+      - I'm looking for a Desktop PC with a 55-inch screen
+      - I'm looking for a Desktop PC with a 65-inch screen
+      - I'm looking for a Desktop PC with a 32-inch screen
+      - I'm looking for a Desktop PC with a 12.9-inch screen
+      - I'm looking for a Desktop PC with a 5.4-inch screen
+      - I'm looking for a Desktop PC with a 11-inch screen
+      - I'm looking for a Desktop PC with a 6.7-inch screen
+      - I'm looking for a Desktop PC with a 6.1-inch screen
+      - I'm looking for a Desktop PC with a 23.8-inch screen
+      - I'm looking for a Desktop PC with 1920x1080 resolution
+      - I'm looking for a Desktop PC with 2880x1800 resolution
+      - I'm looking for a Desktop PC with 2560x1600 resolution
+      - I'm looking for a Desktop PC with 3840x2160 resolution
+      - I'm looking for a Desktop PC with 2560x1440 resolution
+      - I'm looking for a Desktop PC with 7680x4320 resolution
+      - I'm looking for a Desktop PC with 2388x1668 resolution
+      - I'm looking for a Desktop PC with 2532x1170 resolution
+      - I'm looking for a Desktop PC with 2340x1080 resolution
+      - I'm looking for a Desktop PC with 2778x1284 resolution
+      - I'm looking for a Desktop PC with 2732x2048 resolution
+      - I'm looking for a Desktop PC with Linux operating system
+      - I'm looking for a Desktop PC with macOS operating system
+      - I'm looking for a Desktop PC with Windows 10 operating system
+      - I'm looking for a Desktop PC with Windows 11 operating system
+      - I'm looking for a Desktop PC with iPadOS 15 operating system
+      - I'm looking for a Desktop PC with adroid 12 operating system
+      - I'm looking for a Desktop PC with adroid 11 operating system
+      - I'm looking for a Desktop PC with iOS 15 operating system
+      - I'm looking for a Desktop PC with iOS 16 operating system
+      - I'm looking for a Desktop PC in White color
+      - I'm looking for a Desktop PC in Black color
+      - I'm looking for a Desktop PC in Silver color
+      - I'm looking for a Desktop PC in Space Gray color
+      - I'm looking for a Desktop PC in Blue color
+      - I'm looking for a Desktop PC in Red color
+      - I'm looking for a Desktop PC in Green color
+      - I'm looking for a Desktop PC in Gray color
+      - I'm looking for a Desktop PC in Grey color
+      - I'm looking for a Desktop PC in Gold color
+      - I'm looking for a Desktop PC in Yellow color
+      - I'm looking for a Desktop PC in Purple color
+      - I'm looking for a Desktop PC in Pink color
+      - I'm looking for a Desktop PC in Orage color
+      - I'm looking for a Desktop PC in Bronze color
+      - I'm looking for a Desktop PC in Neon Blue/Red color
 
-  - intent: laptop
+  - intent: laptop_notebook
     examples: |
       - need a laptop
       - give me a laptop
@@ -1600,6 +1936,90 @@ nlu:
       - Exploring laptop features
       - Want to buy a new laptop
       - Searching for a new laptop
+      - I'm looking for a Notebook with 8GB RAM
+      - I'm looking for a Notebook with 16GB RAM
+      - I'm looking for a Notebook with 4GB RAM
+      - I'm looking for a Notebook with 6GB RAM
+      - I'm looking for a Notebook with 32GB RAM
+      - I'm looking for a Notebook with a AMD Ryzen 5 processor
+      - I'm looking for a Notebook with a Intel Core i7 processor
+      - I'm looking for a Notebook with a Intel Core i5 processor
+      - I'm looking for a Notebook with a AMD Ryzen 7 processor
+      - I'm looking for a Notebook with a Apple M1 processor
+      - I'm looking for a Notebook with a Intel Core i9 processor
+      - I'm looking for a Notebook with 2TB SSD storage
+      - I'm looking for a Notebook with 1TB SSD storage
+      - I'm looking for a Notebook with 512GB SSD storage
+      - I'm looking for a Notebook with 256GB SSD storage
+      - I'm looking for a Notebook with 128GB storage
+      - I'm looking for a Notebook with 64GB storage
+      - I'm looking for a Notebook with 512GB storage
+      - I'm looking for a Notebook with 1TB storage
+      - I'm looking for a Notebook with 256GB storage
+      - I'm looking for a Notebook with 500GB storage
+      - I'm looking for a Notebook with 1000GB storage
+      - I'm looking for a Notebook with NVIDIA GeForce GTX 1650 graphics card
+      - I'm looking for a Notebook with AMD Radeon Pro 5500M graphics card
+      - I'm looking for a Notebook with Intel Iris Plus graphics card
+      - I'm looking for a Notebook with NVIDIA RTX 3080 graphics card
+      - I'm looking for a Notebook with AMD Radeon RX 6800 graphics card
+      - I'm looking for a Notebook with Integrated Graphics
+      - I'm looking for a Notebook with GeForce RTX 4060 graphics card
+      - I'm looking for a Notebook with GeForce RTX 3050 graphics card
+      - I'm looking for a Notebook with GeForce RTX 3060 Ti graphics card
+      - I'm looking for a Notebook with a 17-inch screen
+      - I'm looking for a Notebook with a 21.5-inch screen
+      - I'm looking for a Notebook with a 27-inch screen
+      - I'm looking for a Notebook with a 15-inch screen
+      - I'm looking for a Notebook with a 13-inch screen
+      - I'm looking for a Notebook with a 50-inch screen
+      - I'm looking for a Notebook with a 75-inch screen
+      - I'm looking for a Notebook with a 43-inch screen
+      - I'm looking for a Notebook with a 55-inch screen
+      - I'm looking for a Notebook with a 65-inch screen
+      - I'm looking for a Notebook with a 32-inch screen
+      - I'm looking for a Notebook with a 12.9-inch screen
+      - I'm looking for a Notebook with a 5.4-inch screen
+      - I'm looking for a Notebook with a 11-inch screen
+      - I'm looking for a Notebook with a 6.7-inch screen
+      - I'm looking for a Notebook with a 6.1-inch screen
+      - I'm looking for a Notebook with a 23.8-inch screen
+      - I'm looking for a Notebook with 1920x1080 resolution
+      - I'm looking for a Notebook with 2880x1800 resolution
+      - I'm looking for a Notebook with 2560x1600 resolution
+      - I'm looking for a Notebook with 3840x2160 resolution
+      - I'm looking for a Notebook with 2560x1440 resolution
+      - I'm looking for a Notebook with 7680x4320 resolution
+      - I'm looking for a Notebook with 2388x1668 resolution
+      - I'm looking for a Notebook with 2532x1170 resolution
+      - I'm looking for a Notebook with 2340x1080 resolution
+      - I'm looking for a Notebook with 2778x1284 resolution
+      - I'm looking for a Notebook with 2732x2048 resolution
+      - I'm looking for a Notebook with Linux operating system
+      - I'm looking for a Notebook with macOS operating system
+      - I'm looking for a Notebook with Windows 10 operating system
+      - I'm looking for a Notebook with Windows 11 operating system
+      - I'm looking for a Notebook with iPadOS 15 operating system
+      - I'm looking for a Notebook with adroid 12 operating system
+      - I'm looking for a Notebook with adroid 11 operating system
+      - I'm looking for a Notebook with iOS 15 operating system
+      - I'm looking for a Notebook with iOS 16 operating system
+      - I'm looking for a Notebook in White color
+      - I'm looking for a Notebook in Black color
+      - I'm looking for a Notebook in Silver color
+      - I'm looking for a Notebook in Space Gray color
+      - I'm looking for a Notebook in Blue color
+      - I'm looking for a Notebook in Red color
+      - I'm looking for a Notebook in Green color
+      - I'm looking for a Notebook in Gray color
+      - I'm looking for a Notebook in Grey color
+      - I'm looking for a Notebook in Gold color
+      - I'm looking for a Notebook in Yellow color
+      - I'm looking for a Notebook in Purple color
+      - I'm looking for a Notebook in Pink color
+      - I'm looking for a Notebook in Orage color
+      - I'm looking for a Notebook in Bronze color
+      - I'm looking for a Notebook in Neon Blue/Red color
 
   - intent: printer
     examples: |
@@ -2055,6 +2475,88 @@ nlu:
       - Did the appliance emit any odour or bad smell during use?
       - What suggestions would you make to save energy during the use of this appliance?
 
+  - intent: heater
+    examples: |
+      - I'm looking for a heater with 1000Watt power
+      - I'm looking for a heater with 2000Watt power
+      - I'm looking for a heater with 500Watt power
+      - I'm looking for a heater with 1500Watt power
+      - I'm looking for a heater in White color
+      - I'm looking for a heater in Silver color
+      - I'm looking for a heater in Black color
+      - I'm looking for a heater in Grey color
+      - I'm looking for a heater with a noise level of 45dB
+      - I'm looking for a heater with a noise level of 40dB
+      - I'm looking for a heater with a noise level of 35dB
+      - I'm looking for a heater with a noise level of 30dB
+      - I'm looking for a heater made of Plastic
+      - I'm looking for a heater made of Ceramic
+      - I'm looking for a heater made of Metal
+      - I'm looking for a heater with a weight of 4kg
+      - I'm looking for a heater with a weight of 2kg
+      - I'm looking for a heater with a weight of 3kg
+      - I'm looking for a heater with a weight of 1kg
+      - I'm looking for a heater with a weight of 5kg
+      - I'm looking for an Electrics heater
+      - I'm looking for a heater with 1000W power
+      - I'm looking for a heater with 2500W power
+      - I'm looking for a heater with 1500W power
+      - I'm looking for a heater with 2000W power
+      - I'm looking for a heater with 5 programs
+      - I'm looking for a heater with 10 programs
+      - I'm looking for a heater with 7 programs
+      - I'm looking for a heater with 3 programs
+      - I'm looking for a heater with Auto Shut-Off safety feature
+      - I'm looking for a heater with Tip-Over Protection safety feature
+      - I'm looking for a heater with Overheat Protection safety feature
+      - I'm looking for a heater with A+ energy efficiency
+      - I'm looking for a heater with A energy efficiency
+      - I'm looking for a heater with A++ energy efficiency
+      - I'm looking for a heater with A+++ energy efficiency
+      - I'm looking for a cordless heater
+      - I'm looking for a heater with a cord
+
+  - intent: gas_heater
+    examples: |
+      - I'm looking for a gas heater with a weight of 2kg
+      - I'm looking for a gas heater with a weight of 5kg
+      - I'm looking for a gas heater with a weight of 3kg
+      - I'm looking for a gas heater with a weight of 1kg
+      - I'm looking for a gas heater with a weight of 4kg
+      - I'm looking for a gas heater in Grey color
+      - I'm looking for a gas heater in White color
+      - I'm looking for a gas heater in Silver color
+      - I'm looking for a gas heater in Black color
+      - I'm looking for a gas heater with 3 programs
+      - I'm looking for a gas heater with 7 programs
+      - I'm looking for a gas heater with 5 programs
+      - I'm looking for a gas heater with 10 programs
+      - I'm looking for a gas heater with 500Watt heating capacity
+      - I'm looking for a gas heater with 1500Watt heating capacity
+      - I'm looking for a gas heater with 1000Watt heating capacity
+      - I'm looking for a gas heater with 2000Watt heating capacity
+      - I'm looking for a gas heater made of Metal
+      - I'm looking for a gas heater made of Plastic
+      - I'm looking for a gas heater made of Ceramic
+      - I'm looking for a gas heater with A+ energy efficiency
+      - I'm looking for a gas heater with A++ energy efficiency
+      - I'm looking for a gas heater with A energy efficiency
+      - I'm looking for a gas heater with A+++ energy efficiency
+      - I'm looking for a gas heater with Overheat Protection safety feature
+      - I'm looking for a gas heater with Auto Shut-Off safety feature
+      - I'm looking for a gas heater with Tip-Over Protection safety feature
+      - I'm looking for a cordless gas heater
+      - I'm looking for a gas heater with a cord
+      - I'm looking for a Gases gas heater
+      - I'm looking for a gas heater with 2000W power
+      - I'm looking for a gas heater with 1000W power
+      - I'm looking for a gas heater with 1500W power
+      - I'm looking for a gas heater with 2500W power
+      - I'm looking for a gas heater with a noise level of 35dB
+      - I'm looking for a gas heater with a noise level of 30dB
+      - I'm looking for a gas heater with a noise level of 45dB
+      - I'm looking for a gas heater with a noise level of 40dB
+
   - intent: filter_notebook
     examples: |
       - i'm looking for a [notebook](category) with [blue](colour) colour
@@ -2064,3 +2566,490 @@ nlu:
       - i need a notebook with [12 hours](battery_life) battery life 
       - i am looking for a notebook with [1080p](maximum_resolution) screen resolution
       - i need a notebook with [256gb](capacity) storage
+
+  - intent: blender
+    examples: |
+      - I'm looking for a blender with 400ml capacity
+      - I'm looking for a blender with 350ml capacity
+      - I'm looking for a blender with 300ml capacity
+      - I'm looking for a blender with green color
+      - I'm looking for a blender in white color
+      - I'm looking for a blender in red color
+      - I'm looking for a blender in black color
+      - I'm looking for a blender in blue color
+      - I'm looking for a blender with a weight of 1.5kg
+      - I'm looking for a blender with a weight of 2.5kg
+      - I'm looking for a blender with a weight of 2kg
+      - I'm looking for a blender with a weight of 3kg
+      - I'm looking for a blender with a weight of 1kg
+      - I'm looking for a blender made of Titanium
+      - I'm looking for a blender made of Stainless Steel
+      - I'm looking for a blender made of Ceramic
+      - I'm looking for a blender made of plastic
+      - I'm looking for a blender with power of 1000W
+      - I'm looking for a blender with power of 1200W
+      - I'm looking for a blender with power of 18000W
+      - I'm looking for a blender with power of 2000W
+      - I'm looking for a blender with steam output of 30g/min
+      - I'm looking for a blender with steam output of 20g/min
+      - I'm looking for a blender with steam output of 40g/min
+      - I'm looking for a blender with steam output of 50g/min
+      - I'm looking for a Phillips blender
+      - I'm looking for a cordless blender
+      - I'm looking for a blender with cord
+
+  - intent: fryer
+    examples: |
+      -
+      - I'm looking for a fryer with 6L capacity
+      - I'm looking for a fryer with 3L capacity
+      - I'm looking for a fryer with 2.5L capacity
+      - I'm looking for a fryer with power of 1000W
+      - I'm looking for a fryer with power of 1500W
+      - I'm looking for a Tefal fryer
+      - I'm looking for a Phillips fryer
+
+  - intent: coffee_machine
+    examples: |
+      - I'm looking for a coffee machine with 300ml capacity
+      - I'm looking for a coffee machine with 350ml capacity
+      - I'm looking for a coffee machine with 400ml capacity
+      - I'm looking for a coffee machine with green color
+      - I'm looking for a coffee machine in white color
+      - I'm looking for a coffee machine in red color
+      - I'm looking for a coffee machine in black color
+      - I'm looking for a coffee machine in blue color
+      - I'm looking for a coffee machine with a weight of 1.5kg
+      - I'm looking for a coffee machine with a weight of 2.5kg
+      - I'm looking for a coffee machine with a weight of 2kg
+      - I'm looking for a coffee machine with a weight of 3kg
+      - I'm looking for a coffee machine with a weight of 1kg
+      - I'm looking for a coffee machine made of Titanium
+      - I'm looking for a coffee machine made of Stainless Steel
+      - I'm looking for a coffee machine made of Ceramic
+      - I'm looking for a coffee machine with power of 1000W
+      - I'm looking for a coffee machine with power of 1200W
+      - I'm looking for a coffee machine with power of 1800W
+      - I'm looking for a coffee machine with power of 2000W
+      - I'm looking for a coffee machine with power of 1500W
+      - I'm looking for a coffee machine with steam output of 30g/min
+      - I'm looking for a coffee machine with steam output of 20g/min
+      - I'm looking for a coffee machine with steam output of 40g/min
+      - I'm looking for a coffee machine with steam output of 50g/min
+      - I'm looking for a DeLonghi coffee machine
+      - I'm looking for a cordless coffee machine
+      - I'm looking for a coffee machine with cord
+      - I'm looking for a coffee machine with 5 number of programs
+      - I'm looking for a coffee machine with 3 number of programs
+      - I'm looking for a coffee machine with 7 number of programs
+      - I'm looking for a coffee machine with 10 number of programs
+
+  - intent: iron
+    examples: |
+      - I'm looking for a iron with 300ml capacity
+      - I'm looking for a iron with 350ml capacity
+      - I'm looking for a iron with 400ml capacity
+      - I'm looking for a iron with green color
+      - I'm looking for a iron in white color
+      - I'm looking for a iron in red color
+      - I'm looking for a iron in black color
+      - I'm looking for a iron in blue color
+      - I'm looking for a iron with a weight of 1.5kg
+      - I'm looking for a iron with a weight of 2.5kg
+      - I'm looking for a iron with a weight of 2kg
+      - I'm looking for a iron with a weight of 3kg
+      - I'm looking for a iron with a weight of 1kg
+      - I'm looking for a iron with blade type of Titanium
+      - I'm looking for a iron with blade type of Stainless Steel
+      - I'm looking for a iron with blade type of Ceramic
+      - I'm looking for a iron made of Plastic
+      - I'm looking for a iron made of Aluminum
+      - I'm looking for a iron made of Stainless Steel
+      - I'm looking for a iron with power of 1000W
+      - I'm looking for a iron with power of 1200W
+      - I'm looking for a iron with power of 1800W
+      - I'm looking for a iron with power of 2000W
+      - I'm looking for a iron with power of 1500W
+      - I'm looking for a iron with steam output of 30g/min
+      - I'm looking for a iron with steam output of 20g/min
+      - I'm looking for a iron with steam output of 40g/min
+      - I'm looking for a iron with steam output of 50g/min
+      - I'm looking for a Tefal iron
+      - I'm looking for a cordless iron
+      - I'm looking for a iron with cord
+      - I'm looking for a iron with 5 number of programs
+      - I'm looking for a iron with 3 number of programs
+      - I'm looking for a iron with 7 number of programs
+      - I'm looking for a iron with 10 number of programs
+
+  - intent: microwave
+    examples: |
+
+      - I'm looking for a microwave with power of 1000W
+      - I'm looking for a microwave with power of 1200W
+      - I'm looking for a microwave with power of 1800W
+      - I'm looking for a microwave with power of 2000W
+      - I'm looking for a microwave with power of 1500W
+      - I'm looking for a microwave with B energy class
+      - I'm looking for a microwave with A energy class
+      - I'm looking for a microwave with A+ energy class
+      - I'm looking for a microwave with A+++ energy class
+
+  - intent: nintendo_switch
+    examples: |
+      - I'm looking for a Nintendo Switch with Edition With NBA 2K24
+      - I'm looking for a Nintendo Switch with (Blue/Red) 4 Edition
+      - I'm looking for a Nintendo Switch with (Blue/Red) 6 Edition
+      - I'm looking for a Nintendo Switch with (Blue/Red) 2 Edition
+      - I'm looking for a Nintendo Switch with (Blue/Red) 5 Edition
+      - I'm looking for a Nintendo Switch with Silver Edition
+      - I'm looking for a Nintendo Switch with (Blue/Red) 10 Edition
+      - I'm looking for a Nintendo Switch with (Blue/Red) 7 Edition
+      - I'm looking for a Nintendo Switch with (Blue/Red) 8 Edition
+      - I'm looking for a Nintendo Switch with Edition With NBA2K24
+      - I'm looking for a Nintendo Switch with (Blue/Red) 1 Edition
+      - I'm looking for a Nintendo Switch with Standart Edition 1000GB
+      - I'm looking for a Nintendo Switch with Edition With EAFC24
+      - I'm looking for a Nintendo Switch with Digital Edition 1000GB
+      - I'm looking for a Nintendo Switch with Standart Edition
+      - I'm looking for a Nintendo Switch with Digital Edition 500GB
+      - I'm looking for a Nintendo Switch with Standart Edition 500GB
+      - I'm looking for a Nintendo Switch with Edition With God of War
+      - I'm looking for a Nintendo Switch with (Blue/Red) 9 Edition
+      - I'm looking for a Nintendo Switch with Standart Edition 1000GB Two Dualsense
+      - I'm looking for a Nintendo Switch with (Blue/Red) 3 Edition
+      - I'm looking for a MSI Nintendo Switch
+      - I'm looking for a Nintendo Nintendo Switch
+      - I'm looking for a Nintendo Switch with a 6.7-inch screen size
+      - I'm looking for a Nintendo Switch with 5 hours battery life
+      - I'm looking for a Nintendo Switch with 15 hours battery life
+      - I'm looking for a Nintendo Switch with 10 hours battery life
+      - I'm looking for a Nintendo Switch model
+      - I'm looking for a Nintendo Switch Gold model
+      - I'm looking for a Nintendo Switch Bronze model
+      - I'm looking for a Nintendo Switch Silver model
+      - I'm looking for a Nintendo Switch (Neon) model
+      - I'm looking for a Nintendo Switch Pro model
+      - I'm looking for a Nintendo Switch (Gray) model
+      - I'm looking for a Nintendo Switch Premium model
+      - I'm looking for a Nintendo Switch Ultimate model
+      - I'm looking for a Nintendo Switch Slim model
+      - I'm looking for a Nintendo Switch in White color
+      - I'm looking for a Nintendo Switch in Red color
+      - I'm looking for a Nintendo Switch in Orange color
+      - I'm looking for a Nintendo Switch in Purple color
+      - I'm looking for a Nintendo Switch in Pink color
+      - I'm looking for a Nintendo Switch in Silver color
+      - I'm looking for a Nintendo Switch in Bronze color
+      - I'm looking for a Nintendo Switch in Yellow color
+      - I'm looking for a Nintendo Switch in Neon Blue/Red color
+      - I'm looking for a Nintendo Switch in Black color
+      - I'm looking for a Nintendo Switch in Gray color
+      - I'm looking for a Nintendo Switch in Gold color
+      - I'm looking for a Nintendo Switch in Blue color
+      - I'm looking for a Nintendo Switch in Green color
+      - I'm looking for a Nintendo Switch released on 2021-11-12
+      - I'm looking for a Nintendo Switch released on 2022-09-25
+      - I'm looking for a Nintendo Switch released on 2023-03-17
+      - I'm looking for a Nintendo Switch with 8 GB RAM
+      - I'm looking for a Nintendo Switch with 32GB RAM
+      - I'm looking for a Nintendo Switch with 16GB RAM
+      - I'm looking for a Nintendo Switch with 1TB SSD storage capacity
+      - I'm looking for a Nintendo Switch with 500GB storage capacity
+      - I'm looking for a Nintendo Switch with 1000GB storage capacity
+      - I'm looking for a Nintendo Switch with an Intel i9 processor
+      - I'm looking for a Nintendo Switch with an AMD Ryzen processor
+      - I'm looking for a Nintendo Switch with a Snapdragon processor
+      - I'm looking for a Nintendo Switch with an Intel i7 processor
+      - I'm looking for a Nintendo Switch with an M1 Chip processor
+      - I'm looking for a Nintendo Switch with Windows 11 operating system
+      - I'm looking for a Nintendo Switch with an AMD Radeon RX 6800 graphics card
+      - I'm looking for a Nintendo Switch with an NVIDIA RTX 3080 graphics card
+      - I'm looking for a Nintendo Switch with Integrated Graphics
+      - I'm looking for a Nintendo Switch with dimensions of 12x6x2 inches
+      - I'm looking for a Nintendo Switch with dimensions of 10x5x1 inches
+      - I'm looking for a Nintendo Switch with dimensions of 15x7x3 inches
+      - I'm looking for a Nintendo Switch with wireless connection type
+      - I'm looking for a Nintendo Switch with an Intel Core i7 processor type
+      - I'm looking for a Nintendo Switch with 1920x1080 resolution
+      - I'm looking for a Nintendo Switch with a 3 year warranty period
+  - intent: playstation
+    examples: |
+      - I'm looking for a PlayStation in White color
+      - I'm looking for a PlayStation in Red color
+      - I'm looking for a PlayStation in Orange color
+      - I'm looking for a PlayStation in Purple color
+      - I'm looking for a PlayStation in Pink color
+      - I'm looking for a PlayStation in Yellow color
+      - I'm looking for a PlayStation in Bronze color
+      - I'm looking for a PlayStation in Neon Blue/Red color
+      - I'm looking for a PlayStation in Black color
+      - I'm looking for a PlayStation in Gold color
+      - I'm looking for a PlayStation in Green color
+      - I'm looking for a PlayStation in Blue color
+      - I'm looking for a PlayStation with dimensions of 15x7x3 inches
+      - I'm looking for a PlayStation with dimensions of 12x6x2 inches
+      - I'm looking for a PlayStation with dimensions of 10x5x1 inches
+      - I'm looking for a PlayStation with a 6.7-inch screen size
+      - I'm looking for a PlayStation with 5 hours battery life
+      - I'm looking for a PlayStation with 15 hours battery life
+      - I'm looking for a PlayStation with 10 hours battery life
+      - I'm looking for a PlayStation with 8 GB RAM
+      - I'm looking for a PlayStation with 32GB RAM
+      - I'm looking for a PlayStation with 16GB RAM
+      - I'm looking for a PlayStation released on 2021-11-12
+      - I'm looking for a PlayStation released on 2022-09-25
+      - I'm looking for a PlayStation released on 2023-03-17
+      - I'm looking for a PlayStation with 1TB SSD storage capacity
+      - I'm looking for a PlayStation with 500GB storage capacity
+      - I'm looking for a PlayStation with 1000GB storage capacity
+      - I'm looking for a PlayStation with Digital Edition 500GB Two Dualsense
+      - I'm looking for a PlayStation with Digital Edition 1000GB Two Dualsense
+      - I'm looking for a PlayStation with Edition 500GB
+      - I'm looking for a PlayStation with Standart Edition 500GB Two Dualsense
+      - I'm looking for a PlayStation with Standart Edition 1000GB
+      - I'm looking for a PlayStation with Edition 1000GB
+      - I'm looking for a PlayStation with Digital Edition 1000GB Two Dualsense With EAFC24
+      - I'm looking for a PlayStation with Digital Edition 1000GB
+      - I'm looking for a PlayStation with Standart Edition 500GB
+      - I'm looking for a PlayStation with Standart Edition 1000GB Two Dualsense
+      - I'm looking for a PlayStation with Digital Edition 500GB
+      - I'm looking for a PlayStation with Windows 11 operating system
+      - I'm looking for a PlayStation with an Intel i9 processor
+      - I'm looking for a PlayStation with an AMD Ryzen processor
+      - I'm looking for a PlayStation with a Snapdragon processor
+      - I'm looking for a PlayStation with an M1 Chip processor
+      - I'm looking for a PlayStation with an Intel i7 processor
+      - I'm looking for a PlayStation with an AMD Radeon RX 6800 graphics card
+      - I'm looking for a PlayStation with an NVIDIA RTX 3080 graphics card
+      - I'm looking for a PlayStation with Integrated Graphics
+      - I'm looking for a PlayStation with wireless connection type
+      - I'm looking for a PlayStation with an Intel Core i7 processor type
+      - I'm looking for a PlayStation 5 Slim model
+      - I'm looking for a PlayStation 5 Digital model
+      - I'm looking for a PlayStation 5 Pro model
+      - I'm looking for a PlayStation 5 Standart model
+      - I'm looking for a PlayStation with 1920x1080 resolution
+      - I'm looking for a Sony PlayStation
+      - I'm looking for a MSI PlayStation
+      - I'm looking for a PlayStation with a 3 year warranty period
+  - intent: xbox
+    examples: |
+      - I'm looking for a Xbox with Pro Digital Edition 500GB
+      - I'm looking for a Xbox with Pro Standart Edition 1000GB
+      - I'm looking for a Xbox with Bronze Edition
+      - I'm looking for a Xbox with Silver Edition
+      - I'm looking for a Xbox with Premium Edition
+      - I'm looking for a Xbox with Bronze Edition With EAFC24
+      - I'm looking for a Xbox with Gold Edition With EAFC24
+      - I'm looking for a Xbox with Slim Standart Edition 1000GB
+      - I'm looking for a Xbox with Slim Digital Edition 1000GB
+      - I'm looking for a Xbox with Slim Standart Edition 500GB
+      - I'm looking for a Xbox with Slim Standart Edition 500GB Two Dualsense
+      - I'm looking for a Xbox with Digital Edition 500GB
+      - I'm looking for a Xbox with Standart Edition 1000GB
+      - I'm looking for a Xbox with Pro Standart Edition 500GB
+      - I'm looking for a Xbox with Gold Edition
+      - I'm looking for a Xbox with Digital Edition 1000GB
+      - I'm looking for a Xbox with an Intel Core i7 processor type
+      - I'm looking for a Xbox with an AMD Radeon RX 6800 graphics card
+      - I'm looking for a Xbox with Integrated Graphics
+      - I'm looking for a Xbox with an NVIDIA RTX 3080 graphics card
+      - I'm looking for a Xbox with dimensions of 12x6x2 inches
+      - I'm looking for a Xbox with dimensions of 15x7x3 inches
+      - I'm looking for a Xbox with dimensions of 10x5x1 inches
+      - I'm looking for a Xbox with 32GB RAM
+      - I'm looking for a Xbox with 8 GB RAM
+      - I'm looking for a Xbox with 16GB RAM
+      - I'm looking for a Xbox with wireless connection type
+      - I'm looking for a Xbox released on 2022-09-25
+      - I'm looking for a Xbox released on 2021-11-12
+      - I'm looking for a Xbox released on 2023-03-17
+      - I'm looking for a Xbox in Orange color
+      - I'm looking for a Xbox in Purple color
+      - I'm looking for a Xbox in White color
+      - I'm looking for a Xbox in Blue color
+      - I'm looking for a Xbox in Green color
+      - I'm looking for a Xbox in Black color
+      - I'm looking for a Xbox in Gray color
+      - I'm looking for a Xbox in Gold color
+      - I'm looking for a Xbox in Silver color
+      - I'm looking for a Xbox in Yellow color
+      - I'm looking for a Xbox in Bronze color
+      - I'm looking for a Xbox with an Intel i9 processor
+      - I'm looking for a Xbox with a Snapdragon processor
+      - I'm looking for a Xbox with an Intel i7 processor
+      - I'm looking for a Xbox with an M1 Chip processor
+      - I'm looking for a Xbox with an AMD Ryzen processor
+      - I'm looking for a Xbox with Windows 11 operating system
+
+  - intent: pc
+    examples: |
+      - I'm looking for a PC with 8GB RAM
+      - I'm looking for a PC with 16GB RAM
+      - I'm looking for a PC with 4GB RAM
+      - I'm looking for a PC with 6GB RAM
+      - I'm looking for a PC with 32GB RAM
+      - I'm looking for a PC with a AMD Ryzen 5 processor
+      - I'm looking for a PC with a Intel Core i7 processor
+      - I'm looking for a PC with a Intel Core i5 processor
+      - I'm looking for a PC with a AMD Ryzen 7 processor
+      - I'm looking for a PC with a Apple M1 processor
+      - I'm looking for a PC with a Intel Core i9 processor
+      - I'm looking for a PC with 2TB SSD storage
+      - I'm looking for a PC with 1TB SSD storage
+      - I'm looking for a PC with 512GB SSD storage
+      - I'm looking for a PC with 256GB SSD storage
+      - I'm looking for a PC with 128GB storage
+      - I'm looking for a PC with 64GB storage
+      - I'm looking for a PC with 512GB storage
+      - I'm looking for a PC with 1TB storage
+      - I'm looking for a PC with 256GB storage
+      - I'm looking for a PC with 500GB storage
+      - I'm looking for a PC with 1000GB storage
+      - I'm looking for a PC with NVIDIA GeForce GTX 1650 graphics card
+      - I'm looking for a PC with AMD Radeon Pro 5500M graphics card
+      - I'm looking for a PC with Intel Iris Plus graphics card
+      - I'm looking for a PC with NVIDIA RTX 3080 graphics card
+      - I'm looking for a PC with AMD Radeon RX 6800 graphics card
+      - I'm looking for a PC with Integrated Graphics
+      - I'm looking for a PC with GeForce RTX 4060 graphics card
+      - I'm looking for a PC with GeForce RTX 3050 graphics card
+      - I'm looking for a PC with GeForce RTX 3060 Ti graphics card
+      - I'm looking for a PC with a 17-inch screen
+      - I'm looking for a PC with a 21.5-inch screen
+      - I'm looking for a PC with a 27-inch screen
+      - I'm looking for a PC with a 15-inch screen
+      - I'm looking for a PC with a 13-inch screen
+      - I'm looking for a PC with a 50-inch screen
+      - I'm looking for a PC with a 75-inch screen
+      - I'm looking for a PC with a 43-inch screen
+      - I'm looking for a PC with a 55-inch screen
+      - I'm looking for a PC with a 65-inch screen
+      - I'm looking for a PC with a 32-inch screen
+      - I'm looking for a PC with a 12.9-inch screen
+      - I'm looking for a PC with a 5.4-inch screen
+      - I'm looking for a PC with a 11-inch screen
+      - I'm looking for a PC with a 6.7-inch screen
+      - I'm looking for a PC with a 6.1-inch screen
+      - I'm looking for a PC with a 23.8-inch screen
+      - I'm looking for a PC with 1920x1080 resolution
+      - I'm looking for a PC with 2880x1800 resolution
+      - I'm looking for a PC with 2560x1600 resolution
+      - I'm looking for a PC with 3840x2160 resolution
+      - I'm looking for a PC with 2560x1440 resolution
+      - I'm looking for a PC with 7680x4320 resolution
+      - I'm looking for a PC with 2388x1668 resolution
+      - I'm looking for a PC with 2532x1170 resolution
+      - I'm looking for a PC with 2340x1080 resolution
+      - I'm looking for a PC with 2778x1284 resolution
+      - I'm looking for a PC with 2732x2048 resolution
+      - I'm looking for a PC with Linux operating system
+      - I'm looking for a PC with macOS operating system
+      - I'm looking for a PC with Windows 10 operating system
+      - I'm looking for a PC with Windows 11 operating system
+      - I'm looking for a PC with iPadOS 15 operating system
+      - I'm looking for a PC with adroid 12 operating system
+      - I'm looking for a PC with adroid 11 operating system
+      - I'm looking for a PC with iOS 15 operating system
+      - I'm looking for a PC with iOS 16 operating system
+      - I'm looking for a PC in White color
+      - I'm looking for a PC in Black color
+      - I'm looking for a PC in Silver color
+      - I'm looking for a PC in Space Gray color
+      - I'm looking for a PC in Blue color
+      - I'm looking for a PC in Red color
+      - I'm looking for a PC in Green color
+      - I'm looking for a PC in Gray color
+      - I'm looking for a PC in Grey color
+      - I'm looking for a PC in Gold color
+      - I'm looking for a PC in Yellow color
+      - I'm looking for a PC in Purple color
+      - I'm looking for a PC in Pink color
+      - I'm looking for a PC in Orage color
+      - I'm looking for a PC in Bronze color
+      - I'm looking for a PC in Neon Blue/Red color
+      - I'm looking for a All-In-One PC  with 8GB RAM
+      - I'm looking for a All-In-One PC  with 16GB RAM
+      - I'm looking for a All-In-One PC  with 4GB RAM
+      - I'm looking for a All-In-One PC  with 6GB RAM
+      - I'm looking for a All-In-One PC  with 32GB RAM
+      - I'm looking for a All-In-One PC  with a AMD Ryzen 5 processor
+      - I'm looking for a All-In-One PC  with a Intel Core i7 processor
+      - I'm looking for a All-In-One PC  with a Intel Core i5 processor
+      - I'm looking for a All-In-One PC  with a AMD Ryzen 7 processor
+      - I'm looking for a All-In-One PC  with a Apple M1 processor
+      - I'm looking for a All-In-One PC  with a Intel Core i9 processor
+      - I'm looking for a All-In-One PC  with 2TB SSD storage
+      - I'm looking for a All-In-One PC  with 1TB SSD storage
+      - I'm looking for a All-In-One PC  with 512GB SSD storage
+      - I'm looking for a All-In-One PC  with 256GB SSD storage
+      - I'm looking for a All-In-One PC  with 128GB storage
+      - I'm looking for a All-In-One PC  with 64GB storage
+      - I'm looking for a All-In-One PC  with 512GB storage
+      - I'm looking for a All-In-One PC  with 1TB storage
+      - I'm looking for a All-In-One PC  with 256GB storage
+      - I'm looking for a All-In-One PC  with 500GB storage
+      - I'm looking for a All-In-One PC  with 1000GB storage
+      - I'm looking for a All-In-One PC  with NVIDIA GeForce GTX 1650 graphics card
+      - I'm looking for a All-In-One PC  with AMD Radeon Pro 5500M graphics card
+      - I'm looking for a All-In-One PC  with Intel Iris Plus graphics card
+      - I'm looking for a All-In-One PC  with NVIDIA RTX 3080 graphics card
+      - I'm looking for a All-In-One PC  with AMD Radeon RX 6800 graphics card
+      - I'm looking for a All-In-One PC  with Integrated Graphics
+      - I'm looking for a All-In-One PC  with GeForce RTX 4060 graphics card
+      - I'm looking for a All-In-One PC  with GeForce RTX 3050 graphics card
+      - I'm looking for a All-In-One PC  with GeForce RTX 3060 Ti graphics card
+      - I'm looking for a All-In-One PC  with a 17-inch screen
+      - I'm looking for a All-In-One PC  with a 21.5-inch screen
+      - I'm looking for a All-In-One PC  with a 27-inch screen
+      - I'm looking for a All-In-One PC  with a 15-inch screen
+      - I'm looking for a All-In-One PC  with a 13-inch screen
+      - I'm looking for a All-In-One PC  with a 50-inch screen
+      - I'm looking for a All-In-One PC  with a 75-inch screen
+      - I'm looking for a All-In-One PC  with a 43-inch screen
+      - I'm looking for a All-In-One PC  with a 55-inch screen
+      - I'm looking for a All-In-One PC  with a 65-inch screen
+      - I'm looking for a All-In-One PC  with a 32-inch screen
+      - I'm looking for a All-In-One PC  with a 12.9-inch screen
+      - I'm looking for a All-In-One PC  with a 5.4-inch screen
+      - I'm looking for a All-In-One PC  with a 11-inch screen
+      - I'm looking for a All-In-One PC  with a 6.7-inch screen
+      - I'm looking for a All-In-One PC  with a 6.1-inch screen
+      - I'm looking for a All-In-One PC  with a 23.8-inch screen
+      - I'm looking for a All-In-One PC  with 1920x1080 resolution
+      - I'm looking for a All-In-One PC  with 2880x1800 resolution
+      - I'm looking for a All-In-One PC  with 2560x1600 resolution
+      - I'm looking for a All-In-One PC  with 3840x2160 resolution
+      - I'm looking for a All-In-One PC  with 2560x1440 resolution
+      - I'm looking for a All-In-One PC  with 7680x4320 resolution
+      - I'm looking for a All-In-One PC  with 2388x1668 resolution
+      - I'm looking for a All-In-One PC  with 2532x1170 resolution
+      - I'm looking for a All-In-One PC  with 2340x1080 resolution
+      - I'm looking for a All-In-One PC  with 2778x1284 resolution
+      - I'm looking for a All-In-One PC  with 2732x2048 resolution
+      - I'm looking for a All-In-One PC  with Linux operating system
+      - I'm looking for a All-In-One PC  with macOS operating system
+      - I'm looking for a All-In-One PC  with Windows 10 operating system
+      - I'm looking for a All-In-One PC  with Windows 11 operating system
+      - I'm looking for a All-In-One PC  with iPadOS 15 operating system
+      - I'm looking for a All-In-One PC  with adroid 12 operating system
+      - I'm looking for a All-In-One PC  with adroid 11 operating system
+      - I'm looking for a All-In-One PC  with iOS 15 operating system
+      - I'm looking for a All-In-One PC  with iOS 16 operating system
+      - I'm looking for a All-In-One PC  in White color
+      - I'm looking for a All-In-One PC  in Black color
+      - I'm looking for a All-In-One PC  in Silver color
+      - I'm looking for a All-In-One PC  in Space Gray color
+      - I'm looking for a All-In-One PC  in Blue color
+      - I'm looking for a All-In-One PC  in Red color
+      - I'm looking for a All-In-One PC  in Green color
+      - I'm looking for a All-In-One PC  in Gray color
+      - I'm looking for a All-In-One PC  in Grey color
+      - I'm looking for a All-In-One PC  in Gold color
+      - I'm looking for a All-In-One PC  in Yellow color
+      - I'm looking for a All-In-One PC  in Purple color
+      - I'm looking for a All-In-One PC  in Pink color
+      - I'm looking for a All-In-One PC  in Orage color
+      - I'm looking for a All-In-One PC  in Bronze color
+      - I'm looking for a All-In-One PC  in Neon Blue/Red color
