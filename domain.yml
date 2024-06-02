@@ -29,7 +29,7 @@ intents:
   - heating_cooling
   - ev_aletleri
   - filter_products
-  
+  - search_by_feature
 
 # entities:
 #   - category
