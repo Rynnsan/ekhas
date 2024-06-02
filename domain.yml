@@ -28,8 +28,10 @@ intents:
   - accessories
   - heating_cooling
   - ev_aletleri
-  - filter_products
   - search_by_feature
+  - category_product_search
+  - search_by_product
+  - product_price_Search
 
 # entities:
 #   - category
