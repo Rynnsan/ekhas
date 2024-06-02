@@ -1104,7 +1104,6 @@ nlu:
       - What is the resale value of the TV?
       - What is included in the package (remote control, cables, booklet, etc.)?
 
-
   - intent: outofscope
     examples: |
       - 1+1=?
@@ -1685,90 +1684,6 @@ nlu:
       - Exploring laptop features
       - Want to buy a new laptop
       - Searching for a new laptop
-      - I'm looking for a Notebook with 8GB RAM
-      - I'm looking for a Notebook with 16GB RAM
-      - I'm looking for a Notebook with 4GB RAM
-      - I'm looking for a Notebook with 6GB RAM
-      - I'm looking for a Notebook with 32GB RAM
-      - I'm looking for a Notebook with a AMD Ryzen 5 processor
-      - I'm looking for a Notebook with a Intel Core i7 processor
-      - I'm looking for a Notebook with a Intel Core i5 processor
-      - I'm looking for a Notebook with a AMD Ryzen 7 processor
-      - I'm looking for a Notebook with a Apple M1 processor
-      - I'm looking for a Notebook with a Intel Core i9 processor
-      - I'm looking for a Notebook with 2TB SSD storage
-      - I'm looking for a Notebook with 1TB SSD storage
-      - I'm looking for a Notebook with 512GB SSD storage
-      - I'm looking for a Notebook with 256GB SSD storage
-      - I'm looking for a Notebook with 128GB storage
-      - I'm looking for a Notebook with 64GB storage
-      - I'm looking for a Notebook with 512GB storage
-      - I'm looking for a Notebook with 1TB storage
-      - I'm looking for a Notebook with 256GB storage
-      - I'm looking for a Notebook with 500GB storage
-      - I'm looking for a Notebook with 1000GB storage
-      - I'm looking for a Notebook with NVIDIA GeForce GTX 1650 graphics card
-      - I'm looking for a Notebook with AMD Radeon Pro 5500M graphics card
-      - I'm looking for a Notebook with Intel Iris Plus graphics card
-      - I'm looking for a Notebook with NVIDIA RTX 3080 graphics card
-      - I'm looking for a Notebook with AMD Radeon RX 6800 graphics card
-      - I'm looking for a Notebook with Integrated Graphics
-      - I'm looking for a Notebook with GeForce RTX 4060 graphics card
-      - I'm looking for a Notebook with GeForce RTX 3050 graphics card
-      - I'm looking for a Notebook with GeForce RTX 3060 Ti graphics card
-      - I'm looking for a Notebook with a 17-inch screen
-      - I'm looking for a Notebook with a 21.5-inch screen
-      - I'm looking for a Notebook with a 27-inch screen
-      - I'm looking for a Notebook with a 15-inch screen
-      - I'm looking for a Notebook with a 13-inch screen
-      - I'm looking for a Notebook with a 50-inch screen
-      - I'm looking for a Notebook with a 75-inch screen
-      - I'm looking for a Notebook with a 43-inch screen
-      - I'm looking for a Notebook with a 55-inch screen
-      - I'm looking for a Notebook with a 65-inch screen
-      - I'm looking for a Notebook with a 32-inch screen
-      - I'm looking for a Notebook with a 12.9-inch screen
-      - I'm looking for a Notebook with a 5.4-inch screen
-      - I'm looking for a Notebook with a 11-inch screen
-      - I'm looking for a Notebook with a 6.7-inch screen
-      - I'm looking for a Notebook with a 6.1-inch screen
-      - I'm looking for a Notebook with a 23.8-inch screen
-      - I'm looking for a Notebook with 1920x1080 resolution
-      - I'm looking for a Notebook with 2880x1800 resolution
-      - I'm looking for a Notebook with 2560x1600 resolution
-      - I'm looking for a Notebook with 3840x2160 resolution
-      - I'm looking for a Notebook with 2560x1440 resolution
-      - I'm looking for a Notebook with 7680x4320 resolution
-      - I'm looking for a Notebook with 2388x1668 resolution
-      - I'm looking for a Notebook with 2532x1170 resolution
-      - I'm looking for a Notebook with 2340x1080 resolution
-      - I'm looking for a Notebook with 2778x1284 resolution
-      - I'm looking for a Notebook with 2732x2048 resolution
-      - I'm looking for a Notebook with Linux operating system
-      - I'm looking for a Notebook with macOS operating system
-      - I'm looking for a Notebook with Windows 10 operating system
-      - I'm looking for a Notebook with Windows 11 operating system
-      - I'm looking for a Notebook with iPadOS 15 operating system
-      - I'm looking for a Notebook with adroid 12 operating system
-      - I'm looking for a Notebook with adroid 11 operating system
-      - I'm looking for a Notebook with iOS 15 operating system
-      - I'm looking for a Notebook with iOS 16 operating system
-      - I'm looking for a Notebook in White color
-      - I'm looking for a Notebook in Black color
-      - I'm looking for a Notebook in Silver color
-      - I'm looking for a Notebook in Space Gray color
-      - I'm looking for a Notebook in Blue color
-      - I'm looking for a Notebook in Red color
-      - I'm looking for a Notebook in Green color
-      - I'm looking for a Notebook in Gray color
-      - I'm looking for a Notebook in Grey color
-      - I'm looking for a Notebook in Gold color
-      - I'm looking for a Notebook in Yellow color
-      - I'm looking for a Notebook in Purple color
-      - I'm looking for a Notebook in Pink color
-      - I'm looking for a Notebook in Orage color
-      - I'm looking for a Notebook in Bronze color
-      - I'm looking for a Notebook in Neon Blue/Red color
 
   - intent: printer
     examples: |
@@ -2223,8 +2138,6 @@ nlu:
       - How to solve any user error or accidental problems during the use of the appliance?
       - Did the appliance emit any odour or bad smell during use?
       - What suggestions would you make to save energy during the use of this appliance?
-
-
 
   - intent: filter_notebook
     examples: |
@@ -17998,3 +17911,602 @@ nlu:
       - Where can I buy a gas heater with a noise level of 40dB
       - Suggest me a gas heater with a noise level of 40dB
       - Recommend me a gas heater with a noise level of 40dB
+      - an air conditioner with 200m³/h airflow
+      - an air conditioner with 300m³/h airflow
+      - an air conditioner with 400m³/h airflow
+      - an air conditioner with 1500 Watt heating capacity
+      - an air conditioner with 2000 Watt heating capacity
+      - an air conditioner with 1000 Watt heating capacity
+      - an air conditioner with a noise level of 45dB
+      - an air conditioner with a noise level of 40dB
+      - an air conditioner with a noise level of 35dB
+      - an air conditioner with a noise level of 30dB
+      - an air conditioner with 20000 BTU capacity
+      - an air conditioner with 10000 BTU capacity
+      - an air conditioner with 5000 BTU capacity
+      - an air conditioner with 15000 BTU capacity
+      - an air conditioner with A++ energy efficiency
+      - an air conditioner with A+++ energy efficiency
+      - an air conditioner with A+ energy efficiency
+      - an air conditioner with A energy efficiency
+      - an air conditioner with a weight of 5kg
+      - an air conditioner with a weight of 12kg
+      - an air conditioner with a weight of 7kg
+      - an air conditioner with a weight of 10kg
+      - a cordless air conditioner
+      - an air conditioner with a cord
+      - an air conditioner with 5 programs
+      - an air conditioner with 3 programs
+      - an air conditioner with 10 programs
+      - an air conditioner with 7 programs
+      - an air conditioner in Black color
+      - an air conditioner in White color
+      - an air conditioner in Grey color
+      - an air conditioner in Silver color
+      - a LG air conditioner
+      - a Honeywell air conditioner
+      - an air conditioner with 1500W power
+      - an air conditioner with 2000W power
+      - an air conditioner with 2500W power
+      - an air conditioner with 1000W power
+      - an air purifier with 200m³/h airflow
+      - an air purifier with 400m³/h airflow
+      - an air purifier with 300m³/h airflow
+      - an air purifier with 1000W power
+      - an air purifier with 2000W power
+      - an air purifier with 1500W power
+      - an air purifier with 2500W power
+      - an air purifier with a weight of 10kg
+      - an air purifier with a weight of 7kg
+      - an air purifier with a weight of 5kg
+      - an air purifier with a weight of 12kg
+      - an air purifier with 1000 Watt heating capacity
+      - an air purifier with 2000 Watt heating capacity
+      - an air purifier with 1500 Watt heating capacity
+      - an air purifier with a noise level of 30dB
+      - an air purifier with a noise level of 35dB
+      - an air purifier with a noise level of 40dB
+      - an air purifier with a noise level of 45dB
+      - an air purifier with 15000 BTU capacity
+      - an air purifier with 10000 BTU capacity
+      - an air purifier with 5000 BTU capacity
+      - an air purifier with 20000 BTU capacity
+      - a Dyson air purifier
+      - a cordless air purifier
+      - an air purifier with a cord
+      - a fan made of Plastic
+      - a fan made of Metal
+      - a fan made of Ceramic
+      - a fan in White color
+      - a fan in Grey color
+      - a fan in Silver color
+      - a fan in Black color
+      - a fan with Auto Shut- Off safety feature
+      - a fan with Overheat Protection safety feature
+      - a fan with Tip- Over Protection safety feature
+      - a fan with a weight of 4kg
+      - a fan with a weight of 3kg
+      - a fan with a weight of 2kg
+      - a fan with a weight of 5kg
+      - a fan with a weight of 1kg
+      - a fan with 500Watt heating capacity
+      - a fan with 1500Watt heating capacity
+      - a fan with 2000Watt heating capacity
+      - a fan with 1000Watt heating capacity
+      - a fan with 5 programs
+      - a fan with 7 programs
+      - a fan with 3 programs
+      - a fan with 10 programs
+      - a fan with 1000W power
+      - a fan with 1500W power
+      - a fan with 2000W power
+      - a fan with 2500W power
+      - a fan with a noise level of 35dB
+      - a fan with a noise level of 30dB
+      - a fan with a noise level of 45dB
+      - a fan with a noise level of 40dB
+      - a fan with A energy efficiency
+      - a fan with A+ energy efficiency
+      - a fan with A++ energy efficiency
+      - a fan with A+++ energy efficiency
+      - a cordless fan
+      - a fan with a cord
+      - a Gases fan
+      - an Electrics fan
+      - dishwasher with 15L water consumption
+      - dishwasher with 11L water consumption
+      - dishwasher with 9L water consumption
+      - dishwasher with 13L water consumption
+      - dishwasher with a noise level of 44 dB
+      - dishwasher with a noise level of 42 dB
+      - dishwasher with a noise level of 38 dB
+      - dishwasher with a noise level of 40 dB
+      - dishwasher with dimensions 80x195x75 cm
+      - dishwasher with dimensions 60x185x60 cm
+      - dishwasher with dimensions 70x200x70 cm
+      - dishwasher with 10 programs
+      - dishwasher with 12 programs
+      - dishwasher with 7 programs
+      - dishwasher with 5 programs
+      - dishwasher with A+ energy class
+      - dishwasher with B energy class
+      - dishwasher with A energy class
+      - dishwasher with A++ energy class
+      - dishwasher with A+++ energy class
+      - dishwasher with a weight of 90kg
+      - dishwasher with a weight of 70kg
+      - dishwasher with a weight of 80kg
+      - dishwasher with a weight of 100kg
+      - dishwasher with a capacity of 300L
+      - dishwasher with a capacity of 400L
+      - dishwasher with a capacity of 600L
+      - dishwasher with a capacity of 500L
+      - dishwasher with 300 kWh annual energy consumption
+      - dishwasher with 350 kWh annual energy consumption
+      - dishwasher with 250 kWh annual energy consumption
+      - dishwasher with 200 kWh annual energy consumption
+      - dishwasher in Black color
+      - dishwasher in White color
+      - dishwasher in Grey color
+      - dishwasher in Silver color
+      - Samsung dishwasher
+      - dishwasher with a freezer capacity of 150L
+      - dishwasher with a freezer capacity of 200L
+      - dishwasher with a freezer capacity of 100L
+      - dryer with a drying capacity of 6 KG
+      - dryer with a drying capacity of 11 KG
+      - dryer with a drying capacity of 9 KG
+      - dryer with 250 kWh annual energy consumption
+      - dryer with 300 kWh annual energy consumption
+      - dryer with 200 kWh annual energy consumption
+      - Samsung dryer
+      - dryer in Black color
+      - dryer in White color
+      - freezer with B energy class
+      - freezer with A+ energy class
+      - freezer with F energy class
+      - freezer with C energy class
+      - Samsung freezer
+      - Vestel freezer
+      - a Bosch oven
+      - a Samsung oven
+      - a white oven
+      - a black oven
+      - an oven with C energy class
+      - an oven with A++ energy class
+      - an oven with A energy class
+      - a refrigerator with a noise level of 44 dB
+      - a refrigerator with a noise level of 42 dB
+      - a refrigerator with a noise level of 38 dB
+      - a refrigerator with a noise level of 40 dB
+      - a refrigerator with 5 programs
+      - a refrigerator with 10 programs
+      - a refrigerator with 12 programs
+      - a refrigerator with 7 programs
+      - a refrigerator with dimensions 80x195x75 cm
+      - a refrigerator with dimensions 60x185x60 cm
+      - a refrigerator with dimensions 70x200x70 cm
+      - a refrigerator with a weight of 60kg
+      - a refrigerator with a weight of 90kg
+      - a refrigerator with a weight of 70kg
+      - a refrigerator with a weight of 80kg
+      - a refrigerator with a weight of 100kg
+      - a refrigerator with A+ energy class
+      - a refrigerator with B energy class
+      - a refrigerator with A energy class
+      - a refrigerator with A++ energy class
+      - a refrigerator with A+++ energy class
+      - a refrigerator with 11L water consumption
+      - a refrigerator with 9L water consumption
+      - a refrigerator with 13L water consumption
+      - a refrigerator with 15L water consumption
+      - a refrigerator with a capacity of 300L
+      - a refrigerator with a capacity of 400L
+      - a refrigerator with a capacity of 600L
+      - a refrigerator with a capacity of 500L
+      - a refrigerator with 300 kWh annual energy consumption
+      - a refrigerator with 350 kWh annual energy consumption
+      - a refrigerator with 250 kWh annual energy consumption
+      - a refrigerator with 200 kWh annual energy consumption
+      - a refrigerator with a freezer capacity of 150L
+      - a refrigerator with a freezer capacity of 200L
+      - a refrigerator with a freezer capacity of 100L
+      - an LG refrigerator
+      - a black refrigerator
+      - a white refrigerator
+      - a grey refrigerator
+      - a silver refrigerator
+      - a washing machine with dimensions 60x185x60 cm
+      - a washing machine with dimensions 80x195x75 cm
+      - a washing machine with dimensions 70x200x70 cm
+      - a washing machine with A+ energy class
+      - a washing machine with B energy class
+      - a washing machine with A energy class
+      - a washing machine with A++ energy class
+      - a washing machine with A+++ energy class
+      - a washing machine with 10 programs
+      - a washing machine with 12 programs
+      - a washing machine with 7 programs
+      - a washing machine with 5 programs
+      - a washing machine with a noise level of 42 dB
+      - a washing machine with a noise level of 38 dB
+      - a washing machine with a noise level of 44 dB
+      - a washing machine with a noise level of 40 dB
+      - a washing machine with a weight of 90kg
+      - a washing machine with a weight of 60kg
+      - a washing machine with a weight of 70kg
+      - a washing machine with a weight of 80kg
+      - a washing machine with a weight of 100kg
+      - a washing machine with 9L water consumption
+      - a washing machine with 11L water consumption
+      - a washing machine with 13L water consumption
+      - a washing machine with 15L water consumption
+      - a washing machine with 250 kWh annual energy consumption
+      - a washing machine with 300 kWh annual energy consumption
+      - a washing machine with 350 kWh annual energy consumption
+      - a washing machine with 200 kWh annual energy consumption
+      - a washing machine with a freezer capacity of 150L
+      - a washing machine with a freezer capacity of 100L
+      - a washing machine with a freezer capacity of 200L
+      - a washing machine with a capacity of 400L
+      - a washing machine with a capacity of 300L
+      - a washing machine with a capacity of 600L
+      - a washing machine with a capacity of 500L
+      - a black washing machine
+      - a silver washing machine
+      - a white washing machine
+      - a grey washing machine
+      - a Bosch washing machine
+      - a wired earphones
+      - a Bluetooth earphones
+      - a Samsung earphones
+      - an Apple earphones
+      - a Sony earphones
+      - a Xiaomi earphones
+      - a black earphones
+      - a white earphones
+      - an in-ear earphones
+      - Bluetooth headphones.
+      - wired headphones.
+      - headphones from JBL.
+      - headphones from SENNHEISER.
+      - out-ear headphones. 
+      - a mobile phone with iOS 15 operating system.
+      - a mobile phone with iPadOS 15 operating system.
+      - a mobile phone with iOS 16 operating system.
+      - a mobile phone with Android 12 operating system.
+      - a mobile phone with Android 11 operating system.
+      - a mobile phone with a 5.4-inch screen size.
+      - a mobile phone with a 6.1-inch screen size.
+      - a mobile phone with a 6.7-inch screen size.
+      - a mobile phone with a 12.9-inch screen size.
+      - a mobile phone with an 11-inch screen size.
+      - a mobile phone with a 5000mAh battery capacity.
+      - a mobile phone with a 2500mAh battery capacity.
+      - a mobile phone with a 3000mAh battery capacity.
+      - a mobile phone with a 4000mAh battery capacity.
+      - a mobile phone with a 3500mAh battery capacity.
+      - a mobile phone with an A15 Bionic processor.
+      - a mobile phone with an Exynos 2100 processor.
+      - a mobile phone with an M1 processor.
+      - a mobile phone with an A16 Bionic processor.
+      - a mobile phone with a Snapdragon 888 processor.
+      - a mobile phone with 256GB storage capacity.
+      - a mobile phone with 128GB storage capacity.
+      - a mobile phone with 512GB storage capacity.
+      - a mobile phone with 1TB storage capacity.
+      - a mobile phone with 64GB storage capacity.
+      - a mobile phone in Silver color.
+      - a mobile phone in Green color.
+      - a mobile phone in White color.
+      - a mobile phone in Gold color.
+      - a mobile phone in Red color.
+      - a mobile phone in Blue color.
+      - a mobile phone in Black color.
+      - a mobile phone with 189g weight.
+      - a mobile phone with 174g weight.
+      - a mobile phone with 468g weight.
+      - a mobile phone with 204g weight.
+      - a mobile phone with 682g weight.
+      - an Apple mobile phone.
+      - a Samsung mobile phone.
+      - a mobile phone with 16GB RAM.
+      - a mobile phone with 4GB RAM.
+      - a mobile phone with 6GB RAM.
+      - a mobile phone with 8GB RAM.
+      - a mobile phone with a 108MP rear camera and 40MP front camera.
+      - a mobile phone with a 12MP rear camera and 10MP front camera.
+      - a mobile phone with a 48MP rear camera and 12MP front camera.
+      - a mobile phone with a 12MP rear camera and 12MP front camera.
+      - a mobile phone with a 12MP rear camera and 7MP front camera.
+      - a mobile phone with a resolution of 2732x2048.
+      - a mobile phone with a resolution of 2340x1080.
+      - a mobile phone with a resolution of 2778x1284.
+      - a mobile phone with a resolution of 2388x1668.
+      - a mobile phone with a resolution of 2532x1170.
+      - a smartwatch with heart rhythm measurement feature.
+      - a smartwatch without heart rhythm measurement feature.
+      - a smartwatch with GPS.
+      - a smartwatch without GPS.
+      - a waterproof smartwatch.
+      - a smartwatch that is not waterproof.
+      - a smartwatch with voice call capability.
+      - a smartwatch without voice call capability.
+      - a smartwatch with sleep tracking feature.
+      - a smartwatch without sleep tracking feature.
+      - a Xiaomi smartwatch.
+      - a Smart Watch smartwatch.
+      - an Apple smartwatch.
+      - a Huawei smartwatch.
+      - a smartwatch with step count feature.
+      - a smartwatch without step count feature.
+      - a tablet with 256GB storage capacity.
+      - a tablet with 64GB storage capacity.
+      - a tablet with 512GB storage capacity.
+      - a tablet with 128GB storage capacity.
+      - a tablet with a 3500mAh battery capacity.
+      - a tablet with a 4000mAh battery capacity.
+      - a tablet with a 5000mAh battery capacity.
+      - a tablet with a 3000mAh battery capacity.
+      - a tablet with a 2500mAh battery capacity.
+      - a tablet with a 12MP rear camera and 7MP front camera.
+      - a tablet with a 12MP rear camera and 12MP front camera.
+      - a tablet with a 12MP rear camera and 10MP front camera.
+      - a tablet with a 48MP rear camera and 12MP front camera.
+      - a tablet with a 108MP rear camera and 40MP front camera.
+      - a tablet with Android 11 operating system.
+      - a tablet with Android 12 operating system.
+      - a tablet with iOS 16 operating system.
+      - a tablet with iOS 15 operating system.
+      - a tablet with iPadOS 15 operating system.
+      - a tablet with an 11-inch screen size.
+      - a tablet with a 12.9-inch screen size.
+      - a tablet with a 5.4-inch screen size.
+      - a tablet with a 6.1-inch screen size.
+      - a tablet with a 6.7-inch screen size.
+      - a tablet with 6GB RAM.
+      - a tablet with 8GB RAM.
+      - a tablet with 4GB RAM.
+      - a tablet with 16GB RAM.
+      - a black tablet.
+      - a red tablet.
+      - a gold tablet.
+      - a blue tablet.
+      - a green tablet.
+      - a silver tablet.
+      - a white tablet.
+      - a tablet with a resolution of 2532x1170.
+      - a tablet with a resolution of 2778x1284.
+      - a tablet with a resolution of 2732x2048.
+      - a tablet with a resolution of 2340x1080.
+      - a tablet weighing 204g.
+      - a tablet weighing 174g.
+      - a tablet weighing 468g.
+      - a tablet weighing 682g.
+      - a tablet weighing 189g.
+      - a tablet with a Snapdragon 888 processor.
+      - a tablet with an A15 Bionic processor.
+      - a tablet with an M1 processor.
+      - a tablet with an A16 Bionic processor.
+      - a tablet with an Exynos 2100 processor.
+      - an Apple tablet.
+      - a gaming headset weighing 200g.
+      - a gaming headset weighing 100g.
+      - a gaming headset weighing 150g.
+      - a gaming headset weighing 250g.
+      - a gaming headset weighing 120g.
+      - a gaming headset with a mouse DPI of 6400.
+      - a gaming headset with a mouse DPI of 3200.
+      - a gaming headset with a mouse DPI of 2400.
+      - a gaming headset with a mouse DPI of 800.
+      - a gaming headset with a mouse DPI of 12000.
+      - a gaming headset with a mouse DPI of 1600.
+      - a gaming headset with 10 mouse keys.
+      - a gaming headset with 105 keyboard keys.
+      - a gaming headset with 6 mouse keys.
+      - a gaming headset with 3 keyboard keys.
+      - a gaming headset with 104 keyboard keys.
+      - a black gaming headset.
+      - a red gaming headset.
+      - a blue gaming headset.
+      - a green gaming headset.
+      - a white gaming headset.
+      - a gaming headset with wireless connection.
+      - a gaming headset with Bluetooth connection.
+      - a gaming headset with wired connection.
+      - a gaming headset with a wireless range of 10m.
+      - a gaming headset with a wireless range of 30m.
+      - a gaming headset with a wireless range of 20m.
+      - a gaming headset with a wireless range of 15m.
+      - a gaming headset with 20 hours of battery life.
+      - a gaming headset with 30 hours of battery life.
+      - a gaming headset with 40 hours of battery life.
+      - a gaming headset with 10 hours of battery life.
+      - a gaming headset without RGB lighting.
+      - a gaming headset with RGB lighting.
+      - a gaming headset from Corsair.
+      - a gaming headset without a microphone.
+      - a gaming headset with a microphone.
+      - a gaming headset with a frequency response of 20Hz-20kHz.
+      - a gaming headset with a frequency response of 10Hz-25kHz.
+      - a gaming headset with a frequency response of 15Hz-22kHz.
+      - a keyboard with 6 keys.
+      - a keyboard with 105 keys.
+      - a keyboard with 3 keys.
+      - a keyboard with 104 keys.
+      - a keyboard with 10 keys.
+      - a wireless keyboard with a wireless range of 15m.
+      - a wireless keyboard with a wireless range of 10m.
+      - a wireless keyboard with a wireless range of 20m.
+      - a wireless keyboard with a wireless range of 30m.
+      - a green keyboard.
+      - a white keyboard.
+      - a black keyboard.
+      - a blue keyboard.
+      - a red keyboard.
+      - a keyboard without a microphone.
+      - a keyboard with a microphone.
+      - a keyboard weighing 150g.
+      - a keyboard weighing 120g.
+      - a keyboard weighing 250g.
+      - a keyboard weighing 200g.
+      - a keyboard weighing 100g.
+      - a keyboard with Bluetooth connection.
+      - a wired keyboard.
+      - a wireless keyboard.
+      - a keyboard with a headset frequency response of 15Hz-22kHz.
+      - a keyboard with a headset frequency response of 10Hz-25kHz.
+      - a keyboard with a headset frequency response of 20Hz-20kHz.
+      - a keyboard with a mouse DPI of 1600.
+      - a keyboard with a mouse DPI of 2400.
+      - a keyboard with a mouse DPI of 800.
+      - a keyboard with a mouse DPI of 12000.
+      - a keyboard with a mouse DPI of 6400.
+      - a keyboard with a mouse DPI of 3200.
+      - a wireless keyboard with 10 hours of battery life.
+      - a wireless keyboard with 40 hours of battery life.
+      - a wireless keyboard with 20 hours of battery life.
+      - a wireless keyboard with 30 hours of battery life.
+      - a keyboard from Razer.
+      - a keyboard with RGB lighting.
+      - a keyboard without RGB lighting.
+      - a microphone from SteelSeries.
+      - a microphone from Fifine.
+      - a microphone for gaming.
+      - a professional microphone.
+      - a microphone with a frequency response of 50Hz-20KHz.
+      - a microphone with a frequency response of 20Hz-20KHz.
+      - a microphone with a frequency response of 75Hz-20K.
+      - a monitor from GIGABYTE.
+      - a monitor from MSI.
+      - a monitor from Asus.
+      - a monitor with an IPS panel.
+      - a monitor with a VA panel.
+      - a 27-inch monitor.
+      - a 23.8-inch monitor.
+      - a monitor with a refresh rate of 100 Hz.
+      - a monitor with a refresh rate of 144 Hz.
+      - a monitor with a refresh rate of 240 Hz.
+      - a monitor with a refresh rate of 165 Hz.
+      - a monitor with a resolution of 1920x1080.
+      - a monitor with a resolution of 2560x1440.
+      - a monitor with a response time of 5 ms.
+      - a monitor with a response time of 1 ms.
+      - a mouse with Bluetooth connection.
+      - a wireless mouse.
+      - a wired mouse.
+      - a mouse with RGB lighting.
+      - a mouse without RGB lighting.
+      - a wireless mouse with 20 hours of battery life.
+      - a wireless mouse with 30 hours of battery life.
+      - a wireless mouse with 10 hours of battery life.
+      - a wireless mouse with 40 hours of battery life.
+      - a blue mouse.
+      - a red mouse.
+      - a black mouse.
+      - a green mouse.
+      - a white mouse.
+      - a mouse from Logitech.
+      - a wireless mouse with a wireless range of 30m.
+      - a wireless mouse with a wireless range of 20m.
+      - a wireless mouse with a wireless range of 10m.
+      - a wireless mouse with a wireless range of 15m.
+      - a mouse with 105 keys.
+      - a mouse with 6 keys.
+      - a mouse with 10 keys.
+      - a mouse with 3 keys.
+      - a mouse with 104 keys.
+      - a mouse with a DPI of 6400.
+      - a mouse with a DPI of 1600.
+      - a mouse with a DPI of 2400.
+      - a mouse with a DPI of 800.
+      - a mouse with a DPI of 12000.
+      - a mouse weighing 200g.
+      - a mouse weighing 100g.
+      - a mouse weighing 120g.
+      - a mouse weighing 250g.
+      - a mouse weighing 150g.
+      - a Notebook with 8GB RAM
+      - a Notebook with 16GB RAM
+      - a Notebook with 4GB RAM
+      - a Notebook with 6GB RAM
+      - a Notebook with 32GB RAM
+      - a Notebook with a AMD Ryzen 5 processor
+      - a Notebook with a Intel Core i7 processor
+      - a Notebook with a Intel Core i5 processor
+      - a Notebook with a AMD Ryzen 7 processor
+      - a Notebook with a Apple M1 processor
+      - a Notebook with a Intel Core i9 processor
+      - a Notebook with 2TB SSD storage
+      - a Notebook with 1TB SSD storage
+      - a Notebook with 512GB SSD storage
+      - a Notebook with 256GB SSD storage
+      - a Notebook with 128GB storage
+      - a Notebook with 64GB storage
+      - a Notebook with 512GB storage
+      - a Notebook with 1TB storage
+      - a Notebook with 256GB storage
+      - a Notebook with 500GB storage
+      - a Notebook with 1000GB storage
+      - a Notebook with NVIDIA GeForce GTX 1650 graphics card
+      - a Notebook with AMD Radeon Pro 5500M graphics card
+      - a Notebook with Intel Iris Plus graphics card
+      - a Notebook with NVIDIA RTX 3080 graphics card
+      - a Notebook with AMD Radeon RX 6800 graphics card
+      - a Notebook with Integrated Graphics
+      - a Notebook with GeForce RTX 4060 graphics card
+      - a Notebook with GeForce RTX 3050 graphics card
+      - a Notebook with GeForce RTX 3060 Ti graphics card
+      - a Notebook with a 17-inch screen
+      - a Notebook with a 21.5-inch screen
+      - a Notebook with a 27-inch screen
+      - a Notebook with a 15-inch screen
+      - a Notebook with a 13-inch screen
+      - a Notebook with a 50-inch screen
+      - a Notebook with a 75-inch screen
+      - a Notebook with a 43-inch screen
+      - a Notebook with a 55-inch screen
+      - a Notebook with a 65-inch screen
+      - a Notebook with a 32-inch screen
+      - a Notebook with a 12.9-inch screen
+      - a Notebook with a 5.4-inch screen
+      - a Notebook with a 11-inch screen
+      - a Notebook with a 6.7-inch screen
+      - a Notebook with a 6.1-inch screen
+      - a Notebook with a 23.8-inch screen
+      - a Notebook with 1920x1080 resolution
+      - a Notebook with 2880x1800 resolution
+      - a Notebook with 2560x1600 resolution
+      - a Notebook with 3840x2160 resolution
+      - a Notebook with 2560x1440 resolution
+      - a Notebook with 7680x4320 resolution
+      - a Notebook with 2388x1668 resolution
+      - a Notebook with 2532x1170 resolution
+      - a Notebook with 2340x1080 resolution
+      - a Notebook with 2778x1284 resolution
+      - a Notebook with 2732x2048 resolution
+      - a Notebook with Linux operating system
+      - a Notebook with macOS operating system
+      - a Notebook with Windows 10 operating system
+      - a Notebook with Windows 11 operating system
+      - a Notebook with iPadOS 15 operating system
+      - a Notebook with adroid 12 operating system
+      - a Notebook with adroid 11 operating system
+      - a Notebook with iOS 15 operating system
+      - a Notebook with iOS 16 operating system
+      - a Notebook in White color
+      - a Notebook in Black color
+      - a Notebook in Silver color
+      - a Notebook in Space Gray color
+      - a Notebook in Blue color
+      - a Notebook in Red color
+      - a Notebook in Green color
+      - a Notebook in Gray color
+      - a Notebook in Grey color
+      - a Notebook in Gold color
+      - a Notebook in Yellow color
+      - a Notebook in Purple color
+      - a Notebook in Pink color
+      - a Notebook in Orage color
+      - a Notebook in Bronze color
+      - a Notebook in Neon Blue/Red color
