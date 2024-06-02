@@ -29,19 +29,13 @@ intents:
   - heating_cooling
   - ev_aletleri
   - filter_products
-  - coffee_machine
-  - microwave
-  - playstation
-  - xbox
-  - nintendo_switch
-  - heater
-  - gas_heater
+  
 
-entities:
-  - category
-  - colour
-  - capacity
-  - max_dpi
+# entities:
+#   - category
+#   - colour
+#   - capacity
+#   - max_dpi
 
 # slots:
 #   category:
@@ -69,8 +63,13 @@ entities:
 #     entity: max_dpi
 
 actions:
-  - action_extract_entities
+  # - action_extract_entities
   - action_section_start
+  - action_search_by_product
+  - action_category_products_search
+  - action_search_by_feature
+  - action_search_by_product_price
+
 
 #entities:
 # -categories
@@ -84,9 +83,9 @@ responses:
     - text: "Welcome! I'm a chatbot powered by EKHAS. How can I assist you?"
     - text: "Hi! I'm an AI chatbot from EKHAS. What do you need help with?"
 
-  utter_cheer_up:
-    - text: "Here is something to cheer you up:"
-      image: "https://i.imgur.com/nGF1K8f.jpg"
+  # utter_cheer_up:
+  #   - text: "Here is something to cheer you up:"
+  #     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
     - text: "Did that help you? If you need extra help with our electronics please let me know."
@@ -197,4 +196,4 @@ responses:
 
 session_config:
   session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  carry_over_slots_to_new_session: false

@@ -82,28 +82,28 @@ class ActionSessionStart(Action):
 
         return events
     
-class ExtractEntities(Action): 
-    def name(self) -> Text:
-        return "action_extract_entities"
-    def run(self, dispatcher: CollectingDispatcher,
-                    tracker: Tracker,
-                    domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        category = next(tracker.get_latest_entity_values('category'), None)
-        colour = next(tracker.get_latest_entity_values('colour'), None)
-        capacity = next(tracker.get_latest_entity_values('capacity'), None)
-        max_dpi = next(tracker.get_latest_entity_values('max_dpi'), None)
+# class ExtractEntities(Action): 
+#     def name(self) -> Text:
+#         return "action_extract_entities"
+#     def run(self, dispatcher: CollectingDispatcher,
+#                     tracker: Tracker,
+#                     domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#         category = next(tracker.get_latest_entity_values('category'), None)
+#         colour = next(tracker.get_latest_entity_values('colour'), None)
+#         capacity = next(tracker.get_latest_entity_values('capacity'), None)
+#         max_dpi = next(tracker.get_latest_entity_values('max_dpi'), None)
 
 
-        # Link oluşturma
-        link = f"https://khas.mobitek.org/{category}/?colour={colour}"
+#         # Link oluşturma
+#         link = f"https://khas.mobitek.org/{category}/?colour={colour}"
         
-        # HTML formatında mesaj oluşturma
-        message = f'Sure, here are the filtered products: <a href="{link}" target="_blank">{link}</a>'
+#         # HTML formatında mesaj oluşturma
+#         message = f'Sure, here are the filtered products: <a href="{link}" target="_blank">{link}</a>'
         
-        # Mesajı basma
-        dispatcher.utter_message(text=message)
+#         # Mesajı basma
+#         dispatcher.utter_message(text=message)
 
-        return []
+#         return []
 
 
 
