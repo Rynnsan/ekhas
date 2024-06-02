@@ -58,54 +58,7 @@ from rasa_sdk.events import SlotSet, SessionStarted, ActionExecuted, EventType
 from rasa_sdk.executor import CollectingDispatcher
 from pymongo import MongoClient
 import re
-
-class ActionSessionStart(Action):
-    def name(self) -> Text:
-        return "action_session_start"
-
-    async def run(self, dispatcher,
-                        tracker: Tracker, 
-                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        # the session should begin with a `session_started` event
-        events = [SessionStarted()]
-
-        # any slots that should be carried over should come after the
-        # `session_started` event
-        events.extend(self.fetch_slots(tracker))
-
-        # Send a greeting message
-        #dispatcher.utter_message(template="utter_greet")
-
-        # an `action_listen` should be added at the end as a user message follows
-        events.append(ActionExecuted("action_listen"))
-
-        return events
-    
-# class ExtractEntities(Action): 
-#     def name(self) -> Text:
-#         return "action_extract_entities"
-#     def run(self, dispatcher: CollectingDispatcher,
-#                     tracker: Tracker,
-#                     domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#         category = next(tracker.get_latest_entity_values('category'), None)
-#         colour = next(tracker.get_latest_entity_values('colour'), None)
-#         capacity = next(tracker.get_latest_entity_values('capacity'), None)
-#         max_dpi = next(tracker.get_latest_entity_values('max_dpi'), None)
-
-
-#         # Link oluşturma
-#         link = f"https://khas.mobitek.org/{category}/?colour={colour}"
-        
-#         # HTML formatında mesaj oluşturma
-#         message = f'Sure, here are the filtered products: <a href="{link}" target="_blank">{link}</a>'
-        
-#         # Mesajı basma
-#         dispatcher.utter_message(text=message)
-
-#         return []
-
-
+from bson.decimal128 import Decimal128
 
 
 # Class and Service Details
@@ -118,7 +71,8 @@ pictures_collection = db['Picture']
 baseimageurl = "https://omniecdn.blob.core.windows.net/omnitest/"
 basewebsiteurl = "https://khas.mobitek.org/"
 
-#Functions
+
+
 def get_picture_info(product):# product tablosuna git
     picture_info = []
     if 'ProductPictures' in product:
@@ -261,6 +215,60 @@ def products_Price_Search(mesaj):
         product_list.append(product_info)
     
     return product_list
+
+
+class ActionSessionStart(Action):
+    def name(self) -> Text:
+        return "action_session_start"
+
+    async def run(self, dispatcher,
+                        tracker: Tracker, 
+                        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        # the session should begin with a `session_started` event
+        events = [SessionStarted()]
+
+        # any slots that should be carried over should come after the
+        # `session_started` event
+        events.extend(self.fetch_slots(tracker))
+
+        # Send a greeting message
+        #dispatcher.utter_message(template="utter_greet")
+
+        # an `action_listen` should be added at the end as a user message follows
+        events.append(ActionExecuted("action_listen"))
+
+        return events
+    
+# class ExtractEntities(Action): 
+#     def name(self) -> Text:
+#         return "action_extract_entities"
+#     def run(self, dispatcher: CollectingDispatcher,
+#                     tracker: Tracker,
+#                     domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#         category = next(tracker.get_latest_entity_values('category'), None)
+#         colour = next(tracker.get_latest_entity_values('colour'), None)
+#         capacity = next(tracker.get_latest_entity_values('capacity'), None)
+#         max_dpi = next(tracker.get_latest_entity_values('max_dpi'), None)
+
+
+#         # Link oluşturma
+#         link = f"https://khas.mobitek.org/{category}/?colour={colour}"
+        
+#         # HTML formatında mesaj oluşturma
+#         message = f'Sure, here are the filtered products: <a href="{link}" target="_blank">{link}</a>'
+        
+#         # Mesajı basma
+#         dispatcher.utter_message(text=message)
+
+#         return []
+
+
+
+
+
+
+#Functions
 
 class ActionSearch_by_product(Action):
   def name(self) -> Text:
