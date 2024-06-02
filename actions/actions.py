@@ -71,13 +71,11 @@ pictures_collection = db['Picture']
 baseimageurl = "https://omniecdn.blob.core.windows.net/omnitest/"
 basewebsiteurl = "https://khas.mobitek.org/"
 
-
-
-def get_picture_info(product):# product tablosuna git
+def get_picture_info(product):
     picture_info = []
     if 'ProductPictures' in product:
         for product_picture in product['ProductPictures']:
-            picture_id = product_picture['PictureId']#
+            picture_id = product_picture['PictureId']
             picture = pictures_collection.find_one({'_id': picture_id})
             if picture:
                 picture_mimetype = picture['MimeType']
@@ -183,38 +181,69 @@ def category_products_Search(mesaj):
     
     return product_list
 
-def products_Price_Search(mesaj):
-     # Kategorileri MongoDB'den çek
+def product_price_Search(mesaj):
     kategoriler = kategori_collection.find()
     kategori_dict = {kategori['Name']: kategori['_id'] for kategori in kategoriler}
     
-    # Kategori adları listesi oluştur
+    # Kategori Adlarını Listeleme ve Regex Deseni Oluşturma
     kategori_adlari = list(kategori_dict.keys())
-    
-    # Regex deseni oluştur
     kategori_regex_pattern = r'\b(' + '|'.join(map(re.escape, kategori_adlari)) + r')\b'
     
-    # Regex ile mesajdaki kategori adlarını bul
+    # Mesaj İçinde Kategori ve Fiyat Eşleşmelerini Bulma
     kategori_matches = re.findall(kategori_regex_pattern, mesaj)
+    price_matches = re.findall(r'\b\d+(?:\.\d{1,2})?\b', mesaj)
     
-    # Bulunan kategori id'lerini topla
+    # Kategori Kimliklerini Elde Etme
     kategori_ids = [kategori_dict[match] for match in kategori_matches]
     
-    # Ürünleri bul ve ekrana yazdır
-    query = {
-        "ProductCategories.CategoryId": {"$in": kategori_ids}
-    }
-    
+    # Fiyat Eşleşmesi ve Decimal128 Formatına Çevirme
+    price_values = []
+    for price in price_matches:
+        price_values.append(Decimal128(price))
+     
+
+    # Kategori ve Fiyat bilgisi olmadan sorgu yapmayı engelleme
+    if not kategori_ids or not price_values:
+            return []
+
+    # Fiyat Karşılaştırma Anahtar Kelimeleri
+    low_price_keywords = ["low", "düşük", "ucuz","altında"]
+    high_price_keywords = ["yüksek", "fazla", "pahalı", "çok","üstünde"]
+    other_price_keywords = ["arasında"]
+
+    # Mesajdaki Fiyat Karşılaştırma Anahtar Kelimelerine Göre Sorgu Oluşturma
+    if any(keyword in mesaj for keyword in low_price_keywords):
+        query = {
+            "ProductCategories.CategoryId": {"$in": kategori_ids},
+            "Price": {"$lt": price_values[0]}
+        }
+    elif any(keyword in mesaj for keyword in high_price_keywords):
+        query = {
+            "ProductCategories.CategoryId": {"$in": kategori_ids},
+            "Price": {"$gt": price_values[0]}
+        }
+    elif any(keyword in mesaj for keyword in other_price_keywords) and len(price_values) == 2:
+        query = {
+            "ProductCategories.CategoryId": {"$in": kategori_ids},
+            "Price": {"$gte": price_values[0], "$lte": price_values[1]}
+         }    
+    else:
+        query = {
+            "ProductCategories.CategoryId": {"$in": kategori_ids},
+            "Price": {"$lt": price_values[0]}  # Varsayılan olarak düşük fiyatlı ürünler
+        }
+
+    # Ürünleri Veritabanından Çekme
     products = product_collection.find(query)
     
+    # Ürün Bilgilerini Listeleme
     product_list = []
     for product in products:
         picture_urls = get_picture_info(product)
-        pictures = " ".join(picture_urls)  # Resimleri boşluk ile ayırarak yazdırmak için
+        pictures = " ".join(picture_urls) 
         product_info = f"{product['Name']}\n{pictures}\n<a href='{basewebsiteurl}{product['SeName']}'>{basewebsiteurl}{product['SeName']}</a>"
-        product_list.append(product_info)
-    
-    return product_list
+        product_list.append(product_info) 
+    return product_list   
 
 
 class ActionSessionStart(Action):
@@ -263,12 +292,27 @@ class ActionSessionStart(Action):
 
 #         return []
 
+class ActionSearch_by_Price(Action):
+  def name(self) -> Text:
+        return "action_product_price_Search"
 
-
-
-
-
-#Functions
+  def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        mesaj = tracker.latest_message.get('text')
+        
+        # Arama işlemini gerçekleştirin
+        results = product_price_Search(mesaj)
+        
+        if results:
+            dispatcher.utter_message(text="I show the product you specified for you:")
+            for result in results:
+                dispatcher.utter_message(text=result)
+        else:
+            dispatcher.utter_message(text="Sorry, no products matching your search criteria were found.")
+            
+        return []    
 
 class ActionSearch_by_product(Action):
   def name(self) -> Text:
@@ -337,24 +381,20 @@ class ActionSearchByFeature(Action):
             
         return []
 
-class ActionSearch_by_product_price(Action):
+class ActionSearchByName(Action):
+
     def name(self) -> Text:
-            return "action_search_by_product_price"
-    
+        return "action_search_by_name"
+
     def run(self, dispatcher: CollectingDispatcher,
-                tracker: Tracker,
-                domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-            
-            mesaj = tracker.latest_message.get('text')
-            
-            # Arama işlemini gerçekleştirin
-            results = search_by_product(mesaj)
-            
-            if results:
-                dispatcher.utter_message(text="I show the product you specified for you:")
-                for result in results:
-                    dispatcher.utter_message(text=result)
-            else:
-                dispatcher.utter_message(text="Sorry, no products matching your search criteria were found.")
-                
-            return []
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        # İkinci kodunuzu buraya ekleyin
+        product_name = tracker.get_slot('product_name')
+        
+        # Arama işlemini gerçekleştirin
+        result = search_product_by_name(product_name)
+        
+        dispatcher.utter_message(text=f"Search Result: {result}")
+        return []
